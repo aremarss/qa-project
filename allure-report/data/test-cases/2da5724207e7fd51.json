@@ -1,0 +1,465 @@
+{
+  "uid" : "2da5724207e7fd51",
+  "name" : "Должен вернуть ошибку в полях с символьными значениями в форме оплаты",
+  "fullName" : "test.OrderTest.shouldReturnFailWithSymbolicValuesDebit",
+  "historyId" : "f081e02b2baae1040f0f18a2155a55a1",
+  "time" : {
+    "start" : 1645003480955,
+    "stop" : 1645003482079,
+    "duration" : 1124
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "addListenerAndHeadless",
+    "time" : {
+      "start" : 1645003393578,
+      "stop" : 1645003393588,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1645003480955,
+      "stop" : 1645003481051,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1645003480955,
+        "stop" : 1645003480997,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//h2[contains(text(), 'Путешествие')]\") should be(visible)",
+      "time" : {
+        "start" : 1645003480997,
+        "stop" : 1645003481025,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//h2[contains(text(), 'Путешествие')]\") should have(text \"Путешествие дня\")",
+      "time" : {
+        "start" : 1645003481025,
+        "stop" : 1645003481051,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"By.xpath: .//span[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1645003481052,
+        "stop" : 1645003481122,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//h3[contains(text(), 'карт')]\") should be(visible)",
+      "time" : {
+        "start" : 1645003481122,
+        "stop" : 1645003481150,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//h3[contains(text(), 'карт')]\") should have(text \"Оплата по карте\")",
+      "time" : {
+        "start" : 1645003481150,
+        "stop" : 1645003481176,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Номер карты')]/..//input[@class='input__control']\") set value(%&$# &@^!)",
+      "time" : {
+        "start" : 1645003481176,
+        "stop" : 1645003481296,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Месяц')]/..//input[@class='input__control']\") set value(?@)",
+      "time" : {
+        "start" : 1645003481296,
+        "stop" : 1645003481403,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Год')]/..//input[@class='input__control']\") set value(*&)",
+      "time" : {
+        "start" : 1645003481403,
+        "stop" : 1645003481506,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Владелец')]/..//input[@class='input__control']\") set value()*^%@ @!#*()",
+      "time" : {
+        "start" : 1645003481506,
+        "stop" : 1645003481642,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'CVC')]/..//input[@class='input__control']\") set value(*^$)",
+      "time" : {
+        "start" : 1645003481642,
+        "stop" : 1645003481754,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//form//button\") click()",
+      "time" : {
+        "start" : 1645003481755,
+        "stop" : 1645003481822,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\") should be(visible)",
+      "time" : {
+        "start" : 1645003481822,
+        "stop" : 1645003481843,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\") should have(text \"Неверный формат\")",
+      "time" : {
+        "start" : 1645003481843,
+        "stop" : 1645003481871,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\") should be(visible)",
+      "time" : {
+        "start" : 1645003481871,
+        "stop" : 1645003481897,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\") should have(text \"Неверный формат\")",
+      "time" : {
+        "start" : 1645003481897,
+        "stop" : 1645003481923,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Год')]/../span[@class='input__sub']\") should be(visible)",
+      "time" : {
+        "start" : 1645003481923,
+        "stop" : 1645003481948,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Год')]/../span[@class='input__sub']\") should have(text \"Неверный формат\")",
+      "time" : {
+        "start" : 1645003481948,
+        "stop" : 1645003481975,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\") should be(visible)",
+      "time" : {
+        "start" : 1645003481975,
+        "stop" : 1645003481995,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\") should have(text \"Поле обязательно для заполнения\")",
+      "time" : {
+        "start" : 1645003481995,
+        "stop" : 1645003482022,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'CVC')]/../span[@class='input__sub']\") should be(visible)",
+      "time" : {
+        "start" : 1645003482022,
+        "stop" : 1645003482047,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'CVC')]/../span[@class='input__sub']\") should have(text \"Неверный формат\")",
+      "time" : {
+        "start" : 1645003482047,
+        "stop" : 1645003482072,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setDown",
+    "time" : {
+      "start" : 1645003482072,
+      "stop" : 1645003482079,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "removeListener",
+    "time" : {
+      "start" : 1645003549905,
+      "stop" : 1645003549905,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:test.OrderTest]/[method:shouldReturnFailWithSymbolicValuesDebit()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "11452@DESKTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.OrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.OrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldReturnFailWithSymbolicValuesDebit"
+  }, {
+    "name" : "suite",
+    "value" : "test.OrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2da5724207e7fd51.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "4f297754da57d724",
+  "name" : "Поля PaymentId и TransactionId равны при оплате одобренной дебетовой картой",
+  "fullName" : "test.APITest.shouldEqualPaymentAndTransactionIdWithDebitApprovedCard",
+  "historyId" : "92b9d5f1f7be7b175ca6db03e8ed077e",
+  "time" : {
+    "start" : 1645003389899,
+    "stop" : 1645003390224,
+    "duration" : 325
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "setDownDB",
+    "time" : {
+      "start" : 1645003390100,
+      "stop" : 1645003390223,
+      "duration" : 123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:test.APITest]/[method:shouldEqualPaymentAndTransactionIdWithDebitApprovedCard()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "11452@DESKTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.APITest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.APITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldEqualPaymentAndTransactionIdWithDebitApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "test.APITest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f297754da57d724.json",
+  "parameterValues" : [ ]
+}

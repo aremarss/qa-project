@@ -1,0 +1,79 @@
+{
+  "uid" : "3f5bf1f231dea299",
+  "name" : "Должна вернуться ошибка при оплате неизвестной кредитной картой",
+  "fullName" : "test.APITest.shouldReturnFailWithCreditUnknownCard",
+  "historyId" : "fc352e421ac6f429662075e70ba59400",
+  "time" : {
+    "start" : 1645003393119,
+    "stop" : 1645003393216,
+    "duration" : 97
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "setDownDB",
+    "time" : {
+      "start" : 1645003393201,
+      "stop" : 1645003393215,
+      "duration" : 14
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:test.APITest]/[method:shouldReturnFailWithCreditUnknownCard()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "11452@DESKTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.APITest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.APITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldReturnFailWithCreditUnknownCard"
+  }, {
+    "name" : "suite",
+    "value" : "test.APITest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f5bf1f231dea299.json",
+  "parameterValues" : [ ]
+}
