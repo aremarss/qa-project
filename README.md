@@ -57,6 +57,8 @@ ___
 
 ### Установка и запуск
 
+_Примечание: по-умолчанию `SUT` работает с `PostgreSQL`._
+
 1. Скачать код репозитория любым способом.
 2. Выполнить команду в консоли:
 ```
@@ -64,7 +66,7 @@ docker-compose up -d
 ```
 3.1. После развертывания контейнера для запуска `SUT` с `PostgreSQL` выполнить команду в консоли:
 ```
-java -jar .\artifacts\aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/db
+java -jar .\artifacts\aqa-shop.jar
 ```
 3.2. После развертывания контейнера для запуска `SUT` с `MySQL` выполнить команду в консоли:
 ```
@@ -72,7 +74,7 @@ java -jar .\artifacts\aqa-shop.jar --spring.datasource.url=jdbc:mysql://localhos
 ```
 4.1. Запустить тесты командой в консоли `(для PostgreSQL)`:
 ```
-./gradlew clean test allureServe -Ddb=jdbc:postgresql://localhost:5432/db
+./gradlew clean test allureServe
 ```
 4.2. Запустить тесты командой в консоли `(для MySQL)`:
 ```
