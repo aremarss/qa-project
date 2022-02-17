@@ -1,0 +1,345 @@
+{
+  "uid" : "fd989fb8c95bef4e",
+  "name" : "Должен вернуть ошибку с некорректным полем месяца в форме оплаты",
+  "fullName" : "test.OrderTest.shouldReturnErrorWithInvalidMonthDebit",
+  "historyId" : "f1ff1dee7e767ba2302046cda62eb555",
+  "time" : {
+    "start" : 1645092121686,
+    "stop" : 1645092122695,
+    "duration" : 1009
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "addListenerAndHeadless",
+    "time" : {
+      "start" : 1645092027887,
+      "stop" : 1645092027902,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1645092121687,
+      "stop" : 1645092121784,
+      "duration" : 97
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1645092121687,
+        "stop" : 1645092121731,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//h2[contains(text(), 'Путешествие')]\") should be(visible)",
+      "time" : {
+        "start" : 1645092121732,
+        "stop" : 1645092121757,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//h2[contains(text(), 'Путешествие')]\") should have(text \"Путешествие дня\")",
+      "time" : {
+        "start" : 1645092121757,
+        "stop" : 1645092121784,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"By.xpath: .//span[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1645092121784,
+        "stop" : 1645092121857,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//h3[contains(text(), 'карт')]\") should be(visible)",
+      "time" : {
+        "start" : 1645092121857,
+        "stop" : 1645092121887,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//h3[contains(text(), 'карт')]\") should have(text \"Оплата по карте\")",
+      "time" : {
+        "start" : 1645092121887,
+        "stop" : 1645092121916,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Номер карты')]/..//input[@class='input__control']\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1645092121927,
+        "stop" : 1645092122082,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Месяц')]/..//input[@class='input__control']\") set value(23)",
+      "time" : {
+        "start" : 1645092122082,
+        "stop" : 1645092122191,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Год')]/..//input[@class='input__control']\") set value(22)",
+      "time" : {
+        "start" : 1645092122191,
+        "stop" : 1645092122300,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Владелец')]/..//input[@class='input__control']\") set value(Martina Williamson)",
+      "time" : {
+        "start" : 1645092122300,
+        "stop" : 1645092122449,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'CVC')]/..//input[@class='input__control']\") set value(941)",
+      "time" : {
+        "start" : 1645092122449,
+        "stop" : 1645092122565,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//form//button\") click()",
+      "time" : {
+        "start" : 1645092122565,
+        "stop" : 1645092122631,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\") should be(visible)",
+      "time" : {
+        "start" : 1645092122631,
+        "stop" : 1645092122658,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\") should have(text \"Неверно указан срок действия карты\")",
+      "time" : {
+        "start" : 1645092122658,
+        "stop" : 1645092122685,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "setDown",
+    "time" : {
+      "start" : 1645092122685,
+      "stop" : 1645092122694,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "removeListener",
+    "time" : {
+      "start" : 1645092289332,
+      "stop" : 1645092289332,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:test.OrderTest]/[method:shouldReturnErrorWithInvalidMonthDebit()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "7628@DESKTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.OrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.OrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldReturnErrorWithInvalidMonthDebit"
+  }, {
+    "name" : "suite",
+    "value" : "test.OrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd989fb8c95bef4e.json",
+  "parameterValues" : [ ]
+}

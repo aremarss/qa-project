@@ -42,6 +42,10 @@ public abstract class CardPages {
         errorCodeInput.shouldBe(visible).shouldHave(text(errorCode));
     }
 
+    public void errorNameDisplay(String errorName){
+        errorNameInput.shouldBe(visible).shouldHave(text(errorName));
+    }
+
     public void enterValidUserWithApprovedCard() {
         enterInputs(validUser(getApprovedCard()));
         successNotification.shouldBe(visible, ofSeconds(15));

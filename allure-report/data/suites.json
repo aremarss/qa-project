@@ -5,13 +5,13 @@
     "name" : "test.APITest",
     "children" : [ {
       "name" : "Должно отсутствовать поле PaymentId при оплате отклоненной кредитной картой",
-      "uid" : "65286c903a5293ea",
+      "uid" : "2ba503f484d428ef",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "failed",
       "time" : {
-        "start" : 1645087839234,
-        "stop" : 1645087844653,
-        "duration" : 5419
+        "start" : 1645092018308,
+        "stop" : 1645092024089,
+        "duration" : 5781
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно быть поле PaymentId при оплате одобренной дебетовой картой",
-      "uid" : "6d9665031b965de1",
+      "uid" : "4b02cfc4188ff55",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087844810,
-        "stop" : 1645087845051,
-        "duration" : 241
+        "start" : 1645092024262,
+        "stop" : 1645092024497,
+        "duration" : 235
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,13 +39,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно отсутствовать поле CreditId при оплате отклоненной дебетовой картой",
-      "uid" : "345e95a1eb1087ac",
+      "uid" : "4628a3a35a208811",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087845060,
-        "stop" : 1645087845347,
-        "duration" : 287
+        "start" : 1645092024503,
+        "stop" : 1645092024731,
+        "duration" : 228
       },
       "flaky" : false,
       "newFailed" : false,
@@ -56,13 +56,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно отсутствовать поле CreditId при оплате отклоненной кредитной картой",
-      "uid" : "618049dc7c7d7965",
+      "uid" : "a33de2a6c29246f6",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087845356,
-        "stop" : 1645087845527,
-        "duration" : 171
+        "start" : 1645092024739,
+        "stop" : 1645092024951,
+        "duration" : 212
       },
       "flaky" : false,
       "newFailed" : false,
@@ -73,13 +73,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно отсутствовать поле Amount при оплате отклоненной дебетовой картой",
-      "uid" : "427644597725b30",
+      "uid" : "ba1c973e2eec6ef5",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "failed",
       "time" : {
-        "start" : 1645087845533,
-        "stop" : 1645087845651,
-        "duration" : 118
+        "start" : 1645092024956,
+        "stop" : 1645092025117,
+        "duration" : 161
       },
       "flaky" : false,
       "newFailed" : false,
@@ -90,13 +90,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно отсутствовать поле BankId при оплате отклоненной кредитной картой",
-      "uid" : "6581d4c9d4b6c152",
+      "uid" : "205a9838afb2f050",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "failed",
       "time" : {
-        "start" : 1645087845661,
-        "stop" : 1645087845811,
-        "duration" : 150
+        "start" : 1645092025126,
+        "stop" : 1645092025290,
+        "duration" : 164
       },
       "flaky" : false,
       "newFailed" : false,
@@ -107,13 +107,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно быть поле Amount при оплате одобренной дебетовой картой",
-      "uid" : "72db0cae7db011ed",
+      "uid" : "8be8b6f5a627b9ef",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087845818,
-        "stop" : 1645087845944,
-        "duration" : 126
+        "start" : 1645092025306,
+        "stop" : 1645092025458,
+        "duration" : 152
       },
       "flaky" : false,
       "newFailed" : false,
@@ -124,13 +124,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно отсутствовать поле PaymentId при оплате отклоненной дебетовой картой",
-      "uid" : "8d0496f639a49d2e",
+      "uid" : "e4d665bd100edc09",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "failed",
       "time" : {
-        "start" : 1645087845950,
-        "stop" : 1645087846084,
-        "duration" : 134
+        "start" : 1645092025466,
+        "stop" : 1645092025633,
+        "duration" : 167
       },
       "flaky" : false,
       "newFailed" : false,
@@ -141,97 +141,12 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен быть статус APPROVED при оплате одобренной кредитной картой",
-      "uid" : "f20017525fe662ec",
+      "uid" : "6eb6268f7ac95140",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087846090,
-        "stop" : 1645087846211,
-        "duration" : 121
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Поля PaymentId и TransactionId равны при оплате одобренной дебетовой картой",
-      "uid" : "6169e9b69751a056",
-      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087846217,
-        "stop" : 1645087846342,
-        "duration" : 125
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должно отсутствовать поле PaymentId при оплате одобренной кредитной картой",
-      "uid" : "a6e20e47d950a4e9",
-      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087846348,
-        "stop" : 1645087846481,
-        "duration" : 133
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен быть статус DECLINED при оплате одобренной дебетовой картой",
-      "uid" : "3065261ef5687560",
-      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087846488,
-        "stop" : 1645087846603,
-        "duration" : 115
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должно отсутствовать поле CreditId при оплате одобренной дебетовой картой",
-      "uid" : "f208fe95ec2c4c4",
-      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087846608,
-        "stop" : 1645087846886,
-        "duration" : 278
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должно отсутствовать поле TransactionId при оплате отклоненной дебетовой картой",
-      "uid" : "9dee2577d9892fab",
-      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087846894,
-        "stop" : 1645087847054,
+        "start" : 1645092025643,
+        "stop" : 1645092025803,
         "duration" : 160
       },
       "flaky" : false,
@@ -242,14 +157,99 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен быть статус APPROVED при оплате одобренной дебетовой картой",
-      "uid" : "c672856f27758f8e",
+      "name" : "Поля PaymentId и TransactionId равны при оплате одобренной дебетовой картой",
+      "uid" : "6864863fdc64614c",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847063,
-        "stop" : 1645087847203,
-        "duration" : 140
+        "start" : 1645092025813,
+        "stop" : 1645092025966,
+        "duration" : 153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должно отсутствовать поле PaymentId при оплате одобренной кредитной картой",
+      "uid" : "4ad784b715d6e844",
+      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092025975,
+        "stop" : 1645092026322,
+        "duration" : 347
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен быть статус DECLINED при оплате одобренной дебетовой картой",
+      "uid" : "b71040afa5403b5f",
+      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092026330,
+        "stop" : 1645092026507,
+        "duration" : 177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должно отсутствовать поле CreditId при оплате одобренной дебетовой картой",
+      "uid" : "a01868d44a893384",
+      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092026513,
+        "stop" : 1645092026665,
+        "duration" : 152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должно отсутствовать поле TransactionId при оплате отклоненной дебетовой картой",
+      "uid" : "28ab119a4c8066c7",
+      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092026671,
+        "stop" : 1645092026840,
+        "duration" : 169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен быть статус APPROVED при оплате одобренной дебетовой картой",
+      "uid" : "a1984f878ddd9665",
+      "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092026845,
+        "stop" : 1645092026982,
+        "duration" : 137
       },
       "flaky" : false,
       "newFailed" : false,
@@ -260,13 +260,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно быть поле TransactionId при оплате одобренной дебетовой картой",
-      "uid" : "fdf0c6516f2c1c49",
+      "uid" : "1213f8760f1089",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847208,
-        "stop" : 1645087847350,
-        "duration" : 142
+        "start" : 1645092026998,
+        "stop" : 1645092027231,
+        "duration" : 233
       },
       "flaky" : false,
       "newFailed" : false,
@@ -277,13 +277,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно быть поле CreditId при оплате одобренной кредитной картой",
-      "uid" : "b8f6b043a332c0a7",
+      "uid" : "538b810c293927fe",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "failed",
       "time" : {
-        "start" : 1645087847361,
-        "stop" : 1645087847497,
-        "duration" : 136
+        "start" : 1645092027242,
+        "stop" : 1645092027409,
+        "duration" : 167
       },
       "flaky" : false,
       "newFailed" : false,
@@ -294,13 +294,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должно быть поле BankId при оплате одобренной кредитной картой",
-      "uid" : "f053bbae6a5ad00b",
+      "uid" : "75ae60771da9930",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847506,
-        "stop" : 1645087847644,
-        "duration" : 138
+        "start" : 1645092027415,
+        "stop" : 1645092027570,
+        "duration" : 155
       },
       "flaky" : false,
       "newFailed" : false,
@@ -311,13 +311,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должна вернуться ошибка при оплате неизвестной кредитной картой",
-      "uid" : "c37b7f5bb3c76af2",
+      "uid" : "4503d39b44229f44",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847650,
-        "stop" : 1645087847719,
-        "duration" : 69
+        "start" : 1645092027579,
+        "stop" : 1645092027654,
+        "duration" : 75
       },
       "flaky" : false,
       "newFailed" : false,
@@ -328,13 +328,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должна вернуться ошибка при оплате неизвестной дебетовой картой",
-      "uid" : "77110c2232100d0b",
+      "uid" : "3d6ff407cdf5aaa3",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847724,
-        "stop" : 1645087847786,
-        "duration" : 62
+        "start" : 1645092027659,
+        "stop" : 1645092027720,
+        "duration" : 61
       },
       "flaky" : false,
       "newFailed" : false,
@@ -345,13 +345,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен быть статус DECLINED при оплате отклоненной кредитной картой",
-      "uid" : "b53d72ef4bd184f6",
+      "uid" : "d0f1a9f956c560c8",
       "parentUid" : "dea0960cb47fb3c922ed0dd85185930b",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847791,
-        "stop" : 1645087847947,
-        "duration" : 156
+        "start" : 1645092027725,
+        "stop" : 1645092027876,
+        "duration" : 151
       },
       "flaky" : false,
       "newFailed" : false,
@@ -366,13 +366,13 @@
     "name" : "test.OrderTest",
     "children" : [ {
       "name" : "Должен вернуть ошибку со значением поля Карты до лимита в форме оплаты",
-      "uid" : "5a11bbf6563ebd40",
+      "uid" : "49070da0057f14df",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087847973,
-        "stop" : 1645087855304,
-        "duration" : 7331
+        "start" : 1645092027902,
+        "stop" : 1645092036409,
+        "duration" : 8507
       },
       "flaky" : false,
       "newFailed" : false,
@@ -383,13 +383,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со всеми пустыми полями в форме кредита",
-      "uid" : "897c5edbbe20abda",
+      "uid" : "6fbd20e723c6f78c",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087855313,
-        "stop" : 1645087856280,
-        "duration" : 967
+        "start" : 1645092036417,
+        "stop" : 1645092037353,
+        "duration" : 936
       },
       "flaky" : false,
       "newFailed" : false,
@@ -399,14 +399,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть успешно внести валидное значение поля CVC сверх лимита в форме оплаты",
-      "uid" : "bdc786f1683fda50",
+      "name" : "Должен успешно внести валидное значение поля CVC сверх лимита в форме оплаты",
+      "uid" : "7279659f2e655396",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087856288,
-        "stop" : 1645087857277,
-        "duration" : 989
+        "start" : 1645092037366,
+        "stop" : 1645092038403,
+        "duration" : 1037
       },
       "flaky" : false,
       "newFailed" : false,
@@ -417,13 +417,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку с некорректным полем имени в форме оплаты",
-      "uid" : "d6d5fb182435eae9",
+      "uid" : "b6dac25aaeffeda4",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645087857283,
-        "stop" : 1645087862731,
-        "duration" : 5448
+        "start" : 1645092038409,
+        "stop" : 1645092044026,
+        "duration" : 5617
       },
       "flaky" : false,
       "newFailed" : false,
@@ -434,13 +434,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку с некорректным полем месяца в форме кредита",
-      "uid" : "31bb76ddbb47ade5",
+      "uid" : "dae3c0fc4d2b4930",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087862738,
-        "stop" : 1645087863940,
-        "duration" : 1202
+        "start" : 1645092044033,
+        "stop" : 1645092045236,
+        "duration" : 1203
       },
       "flaky" : false,
       "newFailed" : false,
@@ -451,13 +451,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со всеми полями до лимита в форме кредита",
-      "uid" : "26851c4abe8ef0cc",
+      "uid" : "2f1f8df269cb560f",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645087863946,
-        "stop" : 1645087869575,
-        "duration" : 5629
+        "start" : 1645092045242,
+        "stop" : 1645092050964,
+        "duration" : 5722
       },
       "flaky" : false,
       "newFailed" : false,
@@ -468,13 +468,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со значением '0' поля Года в форме оплаты",
-      "uid" : "b5ed57f30d22ae5d",
+      "uid" : "dea3e5f3ea7387be",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087869581,
-        "stop" : 1645087870606,
-        "duration" : 1025
+        "start" : 1645092050970,
+        "stop" : 1645092052026,
+        "duration" : 1056
       },
       "flaky" : false,
       "newFailed" : false,
@@ -485,13 +485,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со всеми некорректными полями в форме кредита",
-      "uid" : "59d80c2bb31f22b1",
+      "uid" : "27d536a97cc2936b",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645087870612,
-        "stop" : 1645087876079,
-        "duration" : 5467
+        "start" : 1645092052032,
+        "stop" : 1645092057348,
+        "duration" : 5316
       },
       "flaky" : false,
       "newFailed" : false,
@@ -502,13 +502,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку в поле Карты с символьным значением в форме кредита",
-      "uid" : "6723b3549a1faa1d",
+      "uid" : "3e5a92c1c5eaeb6f",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087876086,
-        "stop" : 1645087877130,
-        "duration" : 1044
+        "start" : 1645092057354,
+        "stop" : 1645092058351,
+        "duration" : 997
       },
       "flaky" : false,
       "newFailed" : false,
@@ -519,658 +519,12 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть успешно внести валидное значение поля Карты сверх лимита в форме кредита",
-      "uid" : "aaf91004394c95a3",
+      "uid" : "8a8add1b27f332e",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087877136,
-        "stop" : 1645087878063,
-        "duration" : 927
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем года в форме кредита",
-      "uid" : "23e91016a0bdbdd1",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087878067,
-        "stop" : 1645087879078,
-        "duration" : 1011
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением поля Имени до лимита в форме оплаты",
-      "uid" : "7286c5f14a0cf20b",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087879082,
-        "stop" : 1645087884484,
-        "duration" : 5402
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Карты некорректными символами в форме оплаты",
-      "uid" : "4cb299c91fe97bad",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087884489,
-        "stop" : 1645087885488,
-        "duration" : 999
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем года в форме кредита",
-      "uid" : "d928de59c10097cb",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087885493,
-        "stop" : 1645087886451,
-        "duration" : 958
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с неизвестной кредитной картой в форме кредита",
-      "uid" : "c78fc75b9c75274d",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087886456,
-        "stop" : 1645087896033,
-        "duration" : 9577
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем месяца в форме кредита",
-      "uid" : "9359d8e6c0f52ddd",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087896039,
-        "stop" : 1645087896970,
-        "duration" : 931
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Месяца некорректными символами в форме оплаты",
-      "uid" : "49de5acb850b3347",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087896974,
-        "stop" : 1645087897941,
-        "duration" : 967
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением поля CVC до лимита в форме оплаты",
-      "uid" : "213f6ebefdde22f8",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087897946,
-        "stop" : 1645087898937,
-        "duration" : 991
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в полях с некорректными символами в форме кредита",
-      "uid" : "9c6c3932dca0664c",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087898942,
-        "stop" : 1645087904445,
-        "duration" : 5503
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем имени в форме оплаты",
-      "uid" : "259cfa1ec9f25a48",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087904453,
-        "stop" : 1645087905368,
-        "duration" : 915
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля Месяца в форме оплаты",
-      "uid" : "b71ff6981fccd9bc",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087905372,
-        "stop" : 1645087906348,
-        "duration" : 976
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с неизвестной дебетовой картой в форме оплаты",
-      "uid" : "eccd490afa2764b0",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087906353,
-        "stop" : 1645087916455,
-        "duration" : 10102
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля CVC в форме кредита",
-      "uid" : "5831a32e827daa46",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087916461,
-        "stop" : 1645087921883,
-        "duration" : 5422
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением поля CVC до лимита в форме кредита",
-      "uid" : "c847b8f522367051",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087921890,
-        "stop" : 1645087922886,
-        "duration" : 996
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением поля Месяца до лимита в форме кредита",
-      "uid" : "28abd8ea80429e6b",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087922909,
-        "stop" : 1645087923892,
-        "duration" : 983
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку у поля Имени при вводе всех полей сверх лимита в форме оплаты",
-      "uid" : "860f93c895b5bdcc",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087923897,
-        "stop" : 1645087929481,
-        "duration" : 5584
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля Месяца в форме кредита",
-      "uid" : "1366792c49a99e36",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087929486,
-        "stop" : 1645087930488,
-        "duration" : 1002
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со всеми полями со значением '0' в форме кредита",
-      "uid" : "ae005f484f4ce591",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087930493,
-        "stop" : 1645087935905,
-        "duration" : 5412
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку у поля Имени при вводе всех полей сверх лимита в форме кредита",
-      "uid" : "40eaab6e54311ba4",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087935911,
-        "stop" : 1645087941417,
-        "duration" : 5506
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Имени некорректными символами в форме кредита",
-      "uid" : "9caf93e41e63ed63",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087941423,
-        "stop" : 1645087946956,
-        "duration" : 5533
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля Карты в форме оплаты",
-      "uid" : "b9223149705bd1c9",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087946963,
-        "stop" : 1645087952717,
-        "duration" : 5754
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле CVC некорректными символами в форме оплаты",
-      "uid" : "9971484bbcc69df3",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087952723,
-        "stop" : 1645087953741,
-        "duration" : 1018
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем месяца в форме оплаты",
-      "uid" : "bd8d16ec6fef59d3",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087953746,
-        "stop" : 1645087954743,
-        "duration" : 997
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Года с символьным значением в форме кредита",
-      "uid" : "f15507f4ca48902c",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087954747,
-        "stop" : 1645087955744,
-        "duration" : 997
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем месяца в форме оплаты",
-      "uid" : "6f77f6bfc7f29025",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087955748,
-        "stop" : 1645087956692,
-        "duration" : 944
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля Карты в форме кредита",
-      "uid" : "fd5592178b8b0d47",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087956697,
-        "stop" : 1645087962066,
-        "duration" : 5369
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Месяца с символьным значением в форме кредита",
-      "uid" : "287d76fae905acdd",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087962072,
-        "stop" : 1645087963077,
-        "duration" : 1005
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением поля Карты до лимита в форме кредита",
-      "uid" : "cd38e34704c88f4d",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087963081,
-        "stop" : 1645087964073,
-        "duration" : 992
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Месяца с символьным значением в форме оплаты",
-      "uid" : "4b5284e327f742fd",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087964078,
-        "stop" : 1645087965064,
-        "duration" : 986
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем CVC в форме кредита",
-      "uid" : "71de9b91865781b3",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087965068,
-        "stop" : 1645087966032,
-        "duration" : 964
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Года некорректными символами в форме кредита",
-      "uid" : "cf2aae9372931155",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087966036,
-        "stop" : 1645087967018,
-        "duration" : 982
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем CVC в форме кредита",
-      "uid" : "7133d158e4711caf",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087967022,
-        "stop" : 1645087967954,
-        "duration" : 932
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем имени в форме кредита",
-      "uid" : "1df0394910ea4ed3",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087967959,
-        "stop" : 1645087973350,
-        "duration" : 5391
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем CVC в форме оплаты",
-      "uid" : "3f74f9e87ada27ec",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087973355,
-        "stop" : 1645087974331,
-        "duration" : 976
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля Имени в форме оплаты",
-      "uid" : "ef37dc834b94e7c",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087974335,
-        "stop" : 1645087979647,
-        "duration" : 5312
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в полях с некорректными символами в форме оплаты",
-      "uid" : "728fde8c4df52c89",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087979653,
-        "stop" : 1645087985120,
-        "duration" : 5467
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем имени в форме кредита",
-      "uid" : "b414dee46d58194a",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087985126,
-        "stop" : 1645087985999,
-        "duration" : 873
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Года с символьным значением в форме оплаты",
-      "uid" : "f1ac58369d9f6ae6",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645087986004,
-        "stop" : 1645087986972,
+        "start" : 1645092058358,
+        "stop" : 1645092059326,
         "duration" : 968
       },
       "flaky" : false,
@@ -1181,14 +535,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть успешно внести валидное значение поля Года сверх лимита в форме оплаты",
-      "uid" : "ce3f7875730b529f",
+      "name" : "Должен вернуть ошибку с некорректным полем года в форме кредита",
+      "uid" : "f02f33f0c919255b",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645087986976,
-        "stop" : 1645087987896,
-        "duration" : 920
+        "start" : 1645092059331,
+        "stop" : 1645092060357,
+        "duration" : 1026
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1198,14 +552,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку со значением поля Имени сверх лимита в форме кредита",
-      "uid" : "b8e1f5942884e11",
+      "name" : "Должен вернуть ошибку со значением поля Имени до лимита в форме оплаты",
+      "uid" : "2387c74f94e8a602",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645087987900,
-        "stop" : 1645087993530,
-        "duration" : 5630
+        "start" : 1645092060362,
+        "stop" : 1645092065826,
+        "duration" : 5464
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1215,14 +569,116 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку со всеми полями до лимита в форме оплаты",
-      "uid" : "43e5dc568c8097a6",
+      "name" : "Должен вернуть ошибку в поле Карты с некорректными символами в форме оплаты",
+      "uid" : "3f26f1e91c620a44",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092065833,
+        "stop" : 1645092066837,
+        "duration" : 1004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем года в форме кредита",
+      "uid" : "f9d74812dc29bdf2",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092066842,
+        "stop" : 1645092067790,
+        "duration" : 948
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с неизвестной кредитной картой в форме кредита",
+      "uid" : "f03c1916ab80a981",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092067794,
+        "stop" : 1645092071883,
+        "duration" : 4089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем месяца в форме кредита",
+      "uid" : "d91303d677a5fa8",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092071893,
+        "stop" : 1645092072878,
+        "duration" : 985
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Месяца с некорректными символами в форме оплаты",
+      "uid" : "a5db1c4053031030",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092072881,
+        "stop" : 1645092073897,
+        "duration" : 1016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля CVC до лимита в форме оплаты",
+      "uid" : "15716556d0d280df",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092073901,
+        "stop" : 1645092074894,
+        "duration" : 993
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в полях с некорректными символами в форме кредита",
+      "uid" : "f84d3fc53422db6d",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645087993537,
-        "stop" : 1645087999115,
-        "duration" : 5578
+        "start" : 1645092074898,
+        "stop" : 1645092080389,
+        "duration" : 5491
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1232,48 +688,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку со значением '0' поля CVC в форме оплаты",
-      "uid" : "71179a7496bfd592",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645087999121,
-        "stop" : 1645088004431,
-        "duration" : 5310
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со всеми полями со значением '0' в форме оплаты",
-      "uid" : "685bf1a46f480f9e",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645088004437,
-        "stop" : 1645088009853,
-        "duration" : 5416
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть успешно внести валидное значение поля Года сверх лимита в форме кредита",
-      "uid" : "237cf7743700e9dd",
+      "name" : "Должен вернуть ошибку с пустым полем имени в форме оплаты",
+      "uid" : "b6ffef4d417e83b0",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088009859,
-        "stop" : 1645088010788,
-        "duration" : 929
+        "start" : 1645092080397,
+        "stop" : 1645092081298,
+        "duration" : 901
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1283,302 +705,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку в полях с символьными значениями в форме оплаты",
-      "uid" : "1c43f189f37408cd",
+      "name" : "Должен вернуть ошибку со значением '0' поля Месяца в форме оплаты",
+      "uid" : "13df2c70d93ebcbb",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088010792,
-        "stop" : 1645088011938,
-        "duration" : 1146
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен успешно оплатить с одобренной кредитной картой в форме кредита",
-      "uid" : "19e8a04636f92f50",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645088011942,
-        "stop" : 1645088022846,
-        "duration" : 10904
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем карты в форме кредита",
-      "uid" : "5340b6edb255ffe5",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088022852,
-        "stop" : 1645088023777,
-        "duration" : 925
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем карты в форме оплаты",
-      "uid" : "96a267cfe9a0d7d5",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088023781,
-        "stop" : 1645088024714,
-        "duration" : 933
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с некорректным полем года в форме оплаты",
-      "uid" : "583746035374d5eb",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088024718,
-        "stop" : 1645088025677,
-        "duration" : 959
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с отклоненной дебетовой картой в форме оплаты",
-      "uid" : "dcd900bb51773318",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645088025681,
-        "stop" : 1645088042051,
-        "duration" : 16370
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле CVC некорректными символами в форме кредита",
-      "uid" : "9fa06c5c64b211a2",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088042058,
-        "stop" : 1645088043125,
-        "duration" : 1067
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустым полем CVC в форме оплаты",
-      "uid" : "9f1082117c0bc91d",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088043129,
-        "stop" : 1645088044078,
-        "duration" : 949
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен успешно оплатить с одобренной дебетовой картой в форме оплаты",
-      "uid" : "aeaec69ec5377f6c",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088044082,
-        "stop" : 1645088052875,
-        "duration" : 8793
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустой кредитной картой в форме кредита",
-      "uid" : "7e1bbd3c17df78c2",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088052883,
-        "stop" : 1645088053783,
-        "duration" : 900
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле CVC с символьным значением в форме кредита",
-      "uid" : "67fb0cac1f49730f",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088053788,
-        "stop" : 1645088054780,
-        "duration" : 992
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со значением поля Года до лимита в форме оплаты",
-      "uid" : "b9135e8f774def36",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088054784,
-        "stop" : 1645088055760,
-        "duration" : 976
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле CVC с символьным значением в форме оплаты",
-      "uid" : "d4178ca31ad1471f",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088055764,
-        "stop" : 1645088056730,
-        "duration" : 966
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку со всеми пустыми полями в форме оплаты",
-      "uid" : "38063c94831a271c",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088056733,
-        "stop" : 1645088057554,
-        "duration" : 821
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Месяца некорректными символами в форме кредита",
-      "uid" : "cfe6e49b6cbd6c8",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088057558,
-        "stop" : 1645088058547,
-        "duration" : 989
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть успешно внести валидное значение поля Месяца сверх лимита в форме оплаты",
-      "uid" : "e3083c5a0c146efe",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088058552,
-        "stop" : 1645088059487,
-        "duration" : 935
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с пустой дебетовой картой в форме оплаты",
-      "uid" : "39d13f019c930e7a",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088059491,
-        "stop" : 1645088060357,
-        "duration" : 866
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть успешно внести валидное значение поля Карты сверх лимита в форме оплаты",
-      "uid" : "486f73ae18fa640c",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088060361,
-        "stop" : 1645088061344,
+        "start" : 1645092081303,
+        "stop" : 1645092082286,
         "duration" : 983
       },
       "flaky" : false,
@@ -1589,14 +722,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку с пустым полем года в форме оплаты",
-      "uid" : "a965d7f2f0d29a2f",
+      "name" : "Должен вернуть ошибку с неизвестной дебетовой картой в форме оплаты",
+      "uid" : "ba8ebbe7cc929f67",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088061348,
-        "stop" : 1645088062301,
-        "duration" : 953
+        "start" : 1645092082290,
+        "stop" : 1645092084754,
+        "duration" : 2464
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1606,14 +739,881 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку в поле Года некорректными символами в форме оплаты",
-      "uid" : "ed5c0e9ee2c85978",
+      "name" : "Должен вернуть ошибку со значением '0' поля CVC в форме кредита",
+      "uid" : "ce3ae96389a86870",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092084758,
+        "stop" : 1645092090219,
+        "duration" : 5461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля CVC до лимита в форме кредита",
+      "uid" : "57db71aff14ab577",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088062305,
-        "stop" : 1645088063292,
-        "duration" : 987
+        "start" : 1645092090225,
+        "stop" : 1645092091244,
+        "duration" : 1019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля Месяца до лимита в форме кредита",
+      "uid" : "cd0d4927f45ab79a",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092091249,
+        "stop" : 1645092092306,
+        "duration" : 1057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку у поля Имени при вводе всех полей сверх лимита в форме оплаты",
+      "uid" : "af58decc727a7d29",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092092311,
+        "stop" : 1645092097894,
+        "duration" : 5583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением '0' поля Месяца в форме кредита",
+      "uid" : "10cd8b3e0b81b2fd",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092097900,
+        "stop" : 1645092098889,
+        "duration" : 989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со всеми полями со значением '0' в форме кредита",
+      "uid" : "163094162d64e9bb",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092098894,
+        "stop" : 1645092104140,
+        "duration" : 5246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку у поля Имени при вводе всех полей сверх лимита в форме кредита",
+      "uid" : "12947f83ee8ddc29",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092104146,
+        "stop" : 1645092109747,
+        "duration" : 5601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Имени с некорректными символами в форме кредита",
+      "uid" : "1280c8013c508bd5",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092109752,
+        "stop" : 1645092115268,
+        "duration" : 5516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением '0' поля Карты в форме оплаты",
+      "uid" : "f6d027539e40321d",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092115275,
+        "stop" : 1645092120692,
+        "duration" : 5417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле CVC с некорректными символами в форме оплаты",
+      "uid" : "9d7985d20a97b806",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092120697,
+        "stop" : 1645092121681,
+        "duration" : 984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем месяца в форме оплаты",
+      "uid" : "fd989fb8c95bef4e",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092121686,
+        "stop" : 1645092122695,
+        "duration" : 1009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Года с символьным значением в форме кредита",
+      "uid" : "4b98f7f857ec6795",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092122699,
+        "stop" : 1645092123722,
+        "duration" : 1023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем месяца в форме оплаты",
+      "uid" : "997da998b7dab841",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092123728,
+        "stop" : 1645092124640,
+        "duration" : 912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением '0' поля Карты в форме кредита",
+      "uid" : "55c448616d0c1df8",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092124645,
+        "stop" : 1645092130053,
+        "duration" : 5408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Месяца с символьным значением в форме кредита",
+      "uid" : "2aa7c3b2da54e0b7",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092130059,
+        "stop" : 1645092131026,
+        "duration" : 967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля Карты до лимита в форме кредита",
+      "uid" : "602bd0b91f29d236",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092131030,
+        "stop" : 1645092132062,
+        "duration" : 1032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Месяца с символьным значением в форме оплаты",
+      "uid" : "ef143d31f08e35fb",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092132067,
+        "stop" : 1645092133069,
+        "duration" : 1002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем CVC в форме кредита",
+      "uid" : "c70fd567ee808250",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092133073,
+        "stop" : 1645092134116,
+        "duration" : 1043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Года с некорректными символами в форме кредита",
+      "uid" : "94af956baffb43f5",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092134120,
+        "stop" : 1645092135104,
+        "duration" : 984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем CVC в форме кредита",
+      "uid" : "4401754708ec14fa",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092135108,
+        "stop" : 1645092136076,
+        "duration" : 968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем имени в форме кредита",
+      "uid" : "4df498a694f67606",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092136080,
+        "stop" : 1645092141620,
+        "duration" : 5540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем CVC в форме оплаты",
+      "uid" : "83c20300c9bff910",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092141626,
+        "stop" : 1645092142645,
+        "duration" : 1019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением '0' поля Имени в форме оплаты",
+      "uid" : "f870dc79dcddaea4",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092142650,
+        "stop" : 1645092148080,
+        "duration" : 5430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в полях с некорректными символами в форме оплаты",
+      "uid" : "c8f99f11a1ce005d",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092148087,
+        "stop" : 1645092153651,
+        "duration" : 5564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем имени в форме кредита",
+      "uid" : "e63e30aa1a1bd77a",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092153657,
+        "stop" : 1645092154534,
+        "duration" : 877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Года с символьным значением в форме оплаты",
+      "uid" : "7995b9b69d1cb19f",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092154538,
+        "stop" : 1645092155513,
+        "duration" : 975
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен успешно внести валидное значение поля Года сверх лимита в форме оплаты",
+      "uid" : "a2fae4f6e796d563",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092155516,
+        "stop" : 1645092156477,
+        "duration" : 961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля Имени сверх лимита в форме кредита",
+      "uid" : "b185771ddfd910d4",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092156481,
+        "stop" : 1645092162032,
+        "duration" : 5551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со всеми полями до лимита в форме оплаты",
+      "uid" : "41cea194f706e2cd",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092162039,
+        "stop" : 1645092167548,
+        "duration" : 5509
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением '0' поля CVC в форме оплаты",
+      "uid" : "58d346c28156c95c",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092167554,
+        "stop" : 1645092173027,
+        "duration" : 5473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со всеми полями со значением '0' в форме оплаты",
+      "uid" : "b9bc8a59547ff54d",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092173033,
+        "stop" : 1645092178418,
+        "duration" : 5385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть успешно внести валидное значение поля Года сверх лимита в форме кредита",
+      "uid" : "68e5d4c1a59e7b08",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092178424,
+        "stop" : 1645092179356,
+        "duration" : 932
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в полях с символьными значениями в форме оплаты",
+      "uid" : "f30abf2927633cdf",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092179360,
+        "stop" : 1645092180486,
+        "duration" : 1126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен успешно оплатить с одобренной кредитной картой в форме кредита",
+      "uid" : "c822304b8e96ba93",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092180493,
+        "stop" : 1645092187146,
+        "duration" : 6653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем карты в форме кредита",
+      "uid" : "72f20915e00052f5",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092187155,
+        "stop" : 1645092188106,
+        "duration" : 951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем карты в форме оплаты",
+      "uid" : "bab5c823751c57cd",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092188111,
+        "stop" : 1645092189080,
+        "duration" : 969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с некорректным полем года в форме оплаты",
+      "uid" : "f7bf2041b4f43d07",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092189084,
+        "stop" : 1645092190048,
+        "duration" : 964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с отклоненной дебетовой картой в форме оплаты",
+      "uid" : "b43bb44f3ec08923",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092190052,
+        "stop" : 1645092206366,
+        "duration" : 16314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле CVC с некорректными символами в форме кредита",
+      "uid" : "fb5d9b4115953cd8",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092206373,
+        "stop" : 1645092207392,
+        "duration" : 1019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем CVC в форме оплаты",
+      "uid" : "9d538c5832d84793",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092207396,
+        "stop" : 1645092208317,
+        "duration" : 921
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен успешно оплатить с одобренной дебетовой картой в форме оплаты",
+      "uid" : "18fe20c8dbfa19ef",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092208321,
+        "stop" : 1645092215334,
+        "duration" : 7013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустой кредитной картой в форме кредита",
+      "uid" : "183fc0eb3754c29a",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092215342,
+        "stop" : 1645092216246,
+        "duration" : 904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле CVC с символьным значением в форме кредита",
+      "uid" : "e78d552e25f8e7a9",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092216249,
+        "stop" : 1645092217251,
+        "duration" : 1002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля Года до лимита в форме оплаты",
+      "uid" : "6105a6a00e446435",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092217256,
+        "stop" : 1645092218253,
+        "duration" : 997
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле CVC с символьным значением в форме оплаты",
+      "uid" : "7b025763a0e95082",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092218257,
+        "stop" : 1645092219252,
+        "duration" : 995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со всеми пустыми полями в форме оплаты",
+      "uid" : "f6304336c26425a2",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092219255,
+        "stop" : 1645092220062,
+        "duration" : 807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Месяца с некорректными символами в форме кредита",
+      "uid" : "4de59842df11cc95",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092220066,
+        "stop" : 1645092221066,
+        "duration" : 1000
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен успешно внести валидное значение поля Месяца сверх лимита в форме оплаты",
+      "uid" : "ba400ee2553fe41d",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092221071,
+        "stop" : 1645092222025,
+        "duration" : 954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустой дебетовой картой в форме оплаты",
+      "uid" : "d859767812c6c164",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092222030,
+        "stop" : 1645092222930,
+        "duration" : 900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен успешно внести валидное значение поля Карты сверх лимита в форме оплаты",
+      "uid" : "82dcaafadcd50d54",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092222934,
+        "stop" : 1645092223876,
+        "duration" : 942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с пустым полем года в форме оплаты",
+      "uid" : "3a017febc77edf0b",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092223880,
+        "stop" : 1645092224818,
+        "duration" : 938
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку в поле Года с некорректными символами в форме оплаты",
+      "uid" : "b8cf5e9e85450f42",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092224821,
+        "stop" : 1645092225869,
+        "duration" : 1048
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1624,13 +1624,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со значением '0' поля Имени в форме кредита",
-      "uid" : "dc47267750e929c2",
+      "uid" : "52c5e45dd6b9a9b9",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088063296,
-        "stop" : 1645088068593,
-        "duration" : 5297
+        "start" : 1645092225874,
+        "stop" : 1645092231232,
+        "duration" : 5358
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1641,13 +1641,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со значением поля Имени до лимита в форме кредита",
-      "uid" : "f68133b0ca2a7ed7",
+      "uid" : "21ef82ed7c36fb53",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088068598,
-        "stop" : 1645088073913,
-        "duration" : 5315
+        "start" : 1645092231239,
+        "stop" : 1645092236590,
+        "duration" : 5351
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1658,13 +1658,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со всеми некорректными полями в форме оплаты",
-      "uid" : "752db96dccc6c6e9",
+      "uid" : "912fc7c8aeeb419",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088073922,
-        "stop" : 1645088079391,
-        "duration" : 5469
+        "start" : 1645092236596,
+        "stop" : 1645092242086,
+        "duration" : 5490
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1674,14 +1674,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку в поле Имени некорректными символами в форме оплаты",
-      "uid" : "f024dd6fac94c9ba",
+      "name" : "Должен вернуть ошибку в поле Имени с некорректными символами в форме оплаты",
+      "uid" : "7f5de4c168eaf9ee",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088079396,
-        "stop" : 1645088084731,
-        "duration" : 5335
+        "start" : 1645092242091,
+        "stop" : 1645092247623,
+        "duration" : 5532
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1692,13 +1692,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со значением '0' поля Года в форме кредита",
-      "uid" : "8c5078d6e305bd4d",
+      "uid" : "21a9d0f92d43b876",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088084746,
-        "stop" : 1645088085766,
-        "duration" : 1020
+        "start" : 1645092247629,
+        "stop" : 1645092248687,
+        "duration" : 1058
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1709,13 +1709,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку в поле Карты с символьным значением в форме оплаты",
-      "uid" : "22b65f7b91b36ed9",
+      "uid" : "9919c10acdfb1d76",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088085770,
-        "stop" : 1645088086713,
-        "duration" : 943
+        "start" : 1645092248691,
+        "stop" : 1645092249662,
+        "duration" : 971
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1726,63 +1726,12 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со значением поля Года до лимита в форме кредита",
-      "uid" : "250beb5db89b4450",
+      "uid" : "d646a4c7ae01bd4f",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088086717,
-        "stop" : 1645088087763,
-        "duration" : 1046
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку в поле Карты некорректными символами в форме кредита",
-      "uid" : "598c0fc0d1425e87",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088087767,
-        "stop" : 1645088088704,
-        "duration" : 937
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть ошибку с отклоненной кредитной картой в форме кредита",
-      "uid" : "17fe7076d822fd31",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645088088710,
-        "stop" : 1645088105120,
-        "duration" : 16410
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Должен вернуть успешно внести валидное значение поля CVC сверх лимита в форме кредита",
-      "uid" : "1848047e4d0526ef",
-      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645088105129,
-        "stop" : 1645088106121,
+        "start" : 1645092249666,
+        "stop" : 1645092250658,
         "duration" : 992
       },
       "flaky" : false,
@@ -1793,14 +1742,65 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Должен вернуть ошибку со значением поля Месяца до лимита в форме оплаты",
-      "uid" : "3fd861edfa8eaf4b",
+      "name" : "Должен вернуть ошибку в поле Карты с некорректными символами в форме кредита",
+      "uid" : "fea2c702b0423f14",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088106125,
-        "stop" : 1645088107101,
-        "duration" : 976
+        "start" : 1645092250663,
+        "stop" : 1645092251671,
+        "duration" : 1008
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку с отклоненной кредитной картой в форме кредита",
+      "uid" : "50f989a607553dd8",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645092251675,
+        "stop" : 1645092268076,
+        "duration" : 16401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть успешно внести валидное значение поля CVC сверх лимита в форме кредита",
+      "uid" : "2c7d144687468014",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092268085,
+        "stop" : 1645092269126,
+        "duration" : 1041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Должен вернуть ошибку со значением поля Месяца до лимита в форме оплаты",
+      "uid" : "e36486897ecbccb7",
+      "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645092269130,
+        "stop" : 1645092270110,
+        "duration" : 980
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1811,13 +1811,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть успешно внести валидное значение поля Месяца сверх лимита в форме кредита",
-      "uid" : "9e11d414e537130",
+      "uid" : "740a4219f2870d7d",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088107105,
-        "stop" : 1645088108016,
-        "duration" : 911
+        "start" : 1645092270114,
+        "stop" : 1645092271096,
+        "duration" : 982
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1828,13 +1828,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку со значением поля Имени сверх лимита в форме оплаты",
-      "uid" : "f198019a7cabf236",
+      "uid" : "863d17718e914ccf",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088108021,
-        "stop" : 1645088113737,
-        "duration" : 5716
+        "start" : 1645092271099,
+        "stop" : 1645092276804,
+        "duration" : 5705
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1845,13 +1845,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку в поле Имени с символьным значением в форме кредита",
-      "uid" : "2f3ffbfd43152823",
+      "uid" : "7cb8f72dd81ca722",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088113743,
-        "stop" : 1645088119330,
-        "duration" : 5587
+        "start" : 1645092276810,
+        "stop" : 1645092282420,
+        "duration" : 5610
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1862,13 +1862,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку в полях с символьными значениями в форме кредита",
-      "uid" : "f1239a0ed8180aa9",
+      "uid" : "f9c6a93e9f2a022f",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "passed",
       "time" : {
-        "start" : 1645088119338,
-        "stop" : 1645088120495,
-        "duration" : 1157
+        "start" : 1645092282426,
+        "stop" : 1645092283716,
+        "duration" : 1290
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1879,13 +1879,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Должен вернуть ошибку в поле Имени с символьным значением в форме оплаты",
-      "uid" : "3afd4ad7a7120e17",
+      "uid" : "3a346f481cb27f48",
       "parentUid" : "6e1a1120869015e3279e08c63d1731e1",
       "status" : "failed",
       "time" : {
-        "start" : 1645088120499,
-        "stop" : 1645088125843,
-        "duration" : 5344
+        "start" : 1645092283721,
+        "stop" : 1645092289325,
+        "duration" : 5604
       },
       "flaky" : false,
       "newFailed" : false,

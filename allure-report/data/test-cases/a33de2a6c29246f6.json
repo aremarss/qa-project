@@ -1,0 +1,79 @@
+{
+  "uid" : "a33de2a6c29246f6",
+  "name" : "Должно отсутствовать поле CreditId при оплате отклоненной кредитной картой",
+  "fullName" : "test.APITest.shouldNotHaveCreditIdWithCreditApprovedCard",
+  "historyId" : "d9bdb75e365fd7b2161b879f157f5d83",
+  "time" : {
+    "start" : 1645092024739,
+    "stop" : 1645092024951,
+    "duration" : 212
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "setDownDB",
+    "time" : {
+      "start" : 1645092024906,
+      "stop" : 1645092024950,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:test.APITest]/[method:shouldNotHaveCreditIdWithCreditApprovedCard()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "7628@DESKTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.APITest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.APITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotHaveCreditIdWithCreditApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "test.APITest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a33de2a6c29246f6.json",
+  "parameterValues" : [ ]
+}

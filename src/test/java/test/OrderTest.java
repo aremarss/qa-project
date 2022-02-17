@@ -111,7 +111,7 @@ public class OrderTest {
     void shouldReturnErrorsWithEmptyAllDebit() {
         successDebitPage()
                 .enterInputs(emptyUser());
-        errorsDisplay(
+        errorsDisplayDebit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -160,7 +160,7 @@ public class OrderTest {
     void shouldReturnErrorsWithInvalidAllDebit() {
         successDebitPage()
                 .enterInputs(invalidUser());
-        errorsDisplay(
+        errorsDisplayDebit(
                 "Неверный формат",
                 "Неверно указан срок действия карты",
                 "Истёк срок действия карты",
@@ -209,7 +209,7 @@ public class OrderTest {
     void shouldReturnErrorsWithAllZeroInputsDebit() {
         successDebitPage()
                 .enterInputs(userWithAllZero());
-        errorsDisplay(
+        errorsDisplayDebit(
                 "Неверный формат",
                 "Неверно указан срок действия карты",
                 "Истёк срок действия карты",
@@ -257,7 +257,7 @@ public class OrderTest {
     void shouldReturnErrorsWithAllUnderLimitsDebit() {
         successDebitPage()
                 .enterInputs(userWithAllUnderLimits());
-        errorsDisplay(
+        errorsDisplayDebit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -266,21 +266,21 @@ public class OrderTest {
     }
 
     @Test
-    @DisplayName("Должен вернуть успешно внести валидное значение поля Карты сверх лимита в форме оплаты")
+    @DisplayName("Должен успешно внести валидное значение поля Карты сверх лимита в форме оплаты")
     void shouldReturnErrorWithCardAfterLimitDebit() {
         successDebitPage()
                 .enterInputs(userWithCardAfterLimit());
     }
 
     @Test
-    @DisplayName("Должен вернуть успешно внести валидное значение поля Года сверх лимита в форме оплаты")
+    @DisplayName("Должен успешно внести валидное значение поля Года сверх лимита в форме оплаты")
     void shouldReturnErrorWithYearAfterLimitDebit() {
         successDebitPage()
                 .enterInputs(userWithYearAfterLimit());
     }
 
     @Test
-    @DisplayName("Должен вернуть успешно внести валидное значение поля Месяца сверх лимита в форме оплаты")
+    @DisplayName("Должен успешно внести валидное значение поля Месяца сверх лимита в форме оплаты")
     void shouldReturnErrorWithMonthAfterLimitDebit() {
         successDebitPage()
                 .enterInputs(userWithMonthAfterLimit());
@@ -294,7 +294,7 @@ public class OrderTest {
     }
 
     @Test
-    @DisplayName("Должен вернуть успешно внести валидное значение поля CVC сверх лимита в форме оплаты")
+    @DisplayName("Должен успешно внести валидное значение поля CVC сверх лимита в форме оплаты")
     void shouldReturnErrorWithCodeAfterLimitDebit() {
         successDebitPage()
                 .enterInputs(userWithCodeAfterLimit());
@@ -305,44 +305,41 @@ public class OrderTest {
     void shouldReturnErrorsWithAllAfterLimitsDebit() {
         successDebitPage()
                 .enterInputs(userWithAfterLimits());
-        errorsDisplay(
-                "",
-                "",
-                "",
-                "Неверный формат",
-                "");
+        errorNameDisplayDebit(
+                "Неверный формат"
+        );
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Карты некорректными символами в форме оплаты")
+    @DisplayName("Должен вернуть ошибку в поле Карты с некорректными символами в форме оплаты")
     void shouldReturnFailWithCardIncorrectSymbolsDebit() {
         successDebitPage()
                 .enterIncorrectCardInput(userWithCardIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Года некорректными символами в форме оплаты")
+    @DisplayName("Должен вернуть ошибку в поле Года с некорректными символами в форме оплаты")
     void shouldReturnFailWithYearIncorrectSymbolsDebit() {
         successDebitPage()
                 .enterIncorrectYearInput(userWithYearIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Месяца некорректными символами в форме оплаты")
+    @DisplayName("Должен вернуть ошибку в поле Месяца с некорректными символами в форме оплаты")
     void shouldReturnFailWithMonthIncorrectSymbolsDebit() {
         successDebitPage()
                 .enterIncorrectMonthInput(userWithMonthIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Имени некорректными символами в форме оплаты")
+    @DisplayName("Должен вернуть ошибку в поле Имени с некорректными символами в форме оплаты")
     void shouldReturnFailWithNameIncorrectSymbolsDebit() {
         successDebitPage()
                 .enterIncorrectNameInput(userWithNameIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле CVC некорректными символами в форме оплаты")
+    @DisplayName("Должен вернуть ошибку в поле CVC с некорректными символами в форме оплаты")
     void shouldReturnFailWithCodeIncorrectSymbolsDebit() {
         successDebitPage()
                 .enterIncorrectCodeInput(userWithCodeIncorrectSymbols(), "Неверный формат");
@@ -353,7 +350,7 @@ public class OrderTest {
     void shouldReturnFailWithAllIncorrectSymbolsDebit() {
         successDebitPage()
                 .enterInputs(userWithAllIncorrectSymbols());
-        errorsDisplay(
+        errorsDisplayDebit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -402,7 +399,7 @@ public class OrderTest {
     void shouldReturnFailWithSymbolicValuesDebit() {
         successDebitPage()
                 .enterInputs(userWithSymbolicValues());
-        errorsDisplay(
+        errorsDisplayDebit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -483,7 +480,7 @@ public class OrderTest {
     void shouldReturnErrorsWithEmptyAllCredit() {
         successCreditPage()
                 .enterInputs(emptyUser());
-        errorsDisplay(
+        errorsDisplayCredit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -532,7 +529,7 @@ public class OrderTest {
     void shouldReturnErrorsWithInvalidAllCredit() {
         successCreditPage()
                 .enterInputs(invalidUser());
-        errorsDisplay(
+        errorsDisplayCredit(
                 "Неверный формат",
                 "Неверно указан срок действия карты",
                 "Истёк срок действия карты",
@@ -581,7 +578,7 @@ public class OrderTest {
     void shouldReturnErrorsWithAllZeroInputsCredit() {
         successCreditPage()
                 .enterInputs(userWithAllZero());
-        errorsDisplay(
+        errorsDisplayCredit(
                 "Неверный формат",
                 "Неверно указан срок действия карты",
                 "Истёк срок действия карты",
@@ -630,7 +627,7 @@ public class OrderTest {
     void shouldReturnErrorsWithAllUnderLimitsCredit() {
         successCreditPage()
                 .enterInputs(userWithAllUnderLimits());
-        errorsDisplay(
+        errorsDisplayCredit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -679,45 +676,41 @@ public class OrderTest {
     void shouldReturnErrorsWithAllAfterLimitsCredit() {
         successCreditPage()
                 .enterInputs(userWithAfterLimits());
-        errorsDisplay(
-                "",
-                "",
-                "",
-                "Неверный формат",
-                ""
+        errorNameDisplayCredit(
+                "Неверный формат"
         );
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Карты некорректными символами в форме кредита")
+    @DisplayName("Должен вернуть ошибку в поле Карты с некорректными символами в форме кредита")
     void shouldReturnFailWithCardIncorrectSymbolsCredit() {
         successCreditPage()
                 .enterIncorrectCardInput(userWithCardIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Года некорректными символами в форме кредита")
+    @DisplayName("Должен вернуть ошибку в поле Года с некорректными символами в форме кредита")
     void shouldReturnFailWithYearIncorrectSymbolsCredit() {
         successCreditPage()
                 .enterIncorrectYearInput(userWithYearIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Месяца некорректными символами в форме кредита")
+    @DisplayName("Должен вернуть ошибку в поле Месяца с некорректными символами в форме кредита")
     void shouldReturnFailWithMonthIncorrectSymbolsCredit() {
         successCreditPage()
                 .enterIncorrectMonthInput(userWithMonthIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле Имени некорректными символами в форме кредита")
+    @DisplayName("Должен вернуть ошибку в поле Имени с некорректными символами в форме кредита")
     void shouldReturnFailWithNameIncorrectSymbolsCredit() {
         successCreditPage()
                 .enterIncorrectNameInput(userWithNameIncorrectSymbols(), "Неверный формат");
     }
 
     @Test
-    @DisplayName("Должен вернуть ошибку в поле CVC некорректными символами в форме кредита")
+    @DisplayName("Должен вернуть ошибку в поле CVC с некорректными символами в форме кредита")
     void shouldReturnFailWithCodeIncorrectSymbolsCredit() {
         successCreditPage()
                 .enterIncorrectCodeInput(userWithCodeIncorrectSymbols(), "Неверный формат");
@@ -727,7 +720,7 @@ public class OrderTest {
     @DisplayName("Должен вернуть ошибку в полях с некорректными символами в форме кредита")
     void shouldReturnFailWithIncorrectSymbolsCredit() {
         successCreditPage().enterInputs(userWithAllIncorrectSymbols());
-        errorsDisplay(
+        errorsDisplayCredit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -775,7 +768,7 @@ public class OrderTest {
     @DisplayName("Должен вернуть ошибку в полях с символьными значениями в форме кредита")
     void shouldReturnFailWithSymbolicValuesCredit() {
         successCreditPage().enterInputs(userWithSymbolicValues());
-        errorsDisplay(
+        errorsDisplayCredit(
                 "Неверный формат",
                 "Неверный формат",
                 "Неверный формат",
@@ -796,8 +789,23 @@ public class OrderTest {
         return new CreditPage();
     }
 
-    private void errorsDisplay(String errorCard, String errorMonth, String errorYear, String errorName, String errorCode) {
+    private void errorsDisplayDebit(String errorCard, String errorMonth, String errorYear, String errorName, String errorCode) {
         new DebitPage()
                 .errorsDisplay(errorCard, errorMonth, errorYear, errorName, errorCode);
+    }
+
+    private void errorsDisplayCredit(String errorCard, String errorMonth, String errorYear, String errorName, String errorCode) {
+        new CreditPage()
+                .errorsDisplay(errorCard, errorMonth, errorYear, errorName, errorCode);
+    }
+
+    private void errorNameDisplayDebit(String errorName) {
+        new DebitPage()
+                .errorNameDisplay(errorName);
+    }
+
+    private void errorNameDisplayCredit(String errorName) {
+        new CreditPage()
+                .errorNameDisplay(errorName);
     }
 }

@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected: <null> but was: <9a8244d6-2aa9-46a6-bacf-721e02c945c4>",
+      "name" : "expected: <null> but was: <7f8fffa8-2290-45d9-9da3-56c1cf10fc36>",
       "children" : [ {
         "name" : "Должно отсутствовать поле PaymentId при оплате отклоненной кредитной картой",
-        "uid" : "65286c903a5293ea",
-        "parentUid" : "54eb8719058974929e5701c0d5e7c555",
+        "uid" : "2ba503f484d428ef",
+        "parentUid" : "0265aabc1c15740da3ef1d749c0b4365",
         "status" : "failed",
         "time" : {
-          "start" : 1645087839234,
-          "stop" : 1645087844653,
-          "duration" : 5419
+          "start" : 1645092018308,
+          "stop" : 1645092024089,
+          "duration" : 5781
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,18 +23,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "54eb8719058974929e5701c0d5e7c555"
+      "uid" : "0265aabc1c15740da3ef1d749c0b4365"
     }, {
       "name" : "expected: <null> but was: <4500000>",
       "children" : [ {
         "name" : "Должно отсутствовать поле Amount при оплате отклоненной дебетовой картой",
-        "uid" : "427644597725b30",
+        "uid" : "ba1c973e2eec6ef5",
         "parentUid" : "ecea237ee94d92b34cc569c6aff674cc",
         "status" : "failed",
         "time" : {
-          "start" : 1645087845533,
-          "stop" : 1645087845651,
-          "duration" : 118
+          "start" : 1645092024956,
+          "stop" : 1645092025117,
+          "duration" : 161
         },
         "flaky" : false,
         "newFailed" : false,
@@ -46,16 +46,16 @@
       } ],
       "uid" : "ecea237ee94d92b34cc569c6aff674cc"
     }, {
-      "name" : "expected: <null> but was: <7e3721d3-39cf-4871-9df1-2d840aa12493>",
+      "name" : "expected: <null> but was: <79adc139-f308-432f-9f7c-fe5fa62d9669>",
       "children" : [ {
         "name" : "Должно отсутствовать поле BankId при оплате отклоненной кредитной картой",
-        "uid" : "6581d4c9d4b6c152",
-        "parentUid" : "6bdea4fa49178c32904ed825ae1b8ff1",
+        "uid" : "205a9838afb2f050",
+        "parentUid" : "90b1964dcf435563fffb0270e42b27c4",
         "status" : "failed",
         "time" : {
-          "start" : 1645087845661,
-          "stop" : 1645087845811,
-          "duration" : 150
+          "start" : 1645092025126,
+          "stop" : 1645092025290,
+          "duration" : 164
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,18 +65,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6bdea4fa49178c32904ed825ae1b8ff1"
+      "uid" : "90b1964dcf435563fffb0270e42b27c4"
     }, {
-      "name" : "expected: <null> but was: <b9adf5ba-05d3-4cac-8325-1e42a569e7a9>",
+      "name" : "expected: <null> but was: <406f76d3-3b34-4cbb-9086-2716c27ffad3>",
       "children" : [ {
         "name" : "Должно отсутствовать поле PaymentId при оплате отклоненной дебетовой картой",
-        "uid" : "8d0496f639a49d2e",
-        "parentUid" : "d1dc41e65a3d0c82d2b57ed7da6e7935",
+        "uid" : "e4d665bd100edc09",
+        "parentUid" : "635efc9a05cd9bf49ec52f223d791ef8",
         "status" : "failed",
         "time" : {
-          "start" : 1645087845950,
-          "stop" : 1645087846084,
-          "duration" : 134
+          "start" : 1645092025466,
+          "stop" : 1645092025633,
+          "duration" : 167
         },
         "flaky" : false,
         "newFailed" : false,
@@ -86,18 +86,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d1dc41e65a3d0c82d2b57ed7da6e7935"
+      "uid" : "635efc9a05cd9bf49ec52f223d791ef8"
     }, {
-      "name" : "expected: <null> but was: <0916a0a0-1f54-4e9d-866e-08d21c420c13>",
+      "name" : "expected: <null> but was: <18388b3c-6e95-462c-a902-3a347cb6f5e8>",
       "children" : [ {
         "name" : "Должно отсутствовать поле PaymentId при оплате одобренной кредитной картой",
-        "uid" : "a6e20e47d950a4e9",
-        "parentUid" : "f07f7674949ec31051b2642d2685a759",
+        "uid" : "4ad784b715d6e844",
+        "parentUid" : "ef784ab91c0c40f8d67c71824539351e",
         "status" : "failed",
         "time" : {
-          "start" : 1645087846348,
-          "stop" : 1645087846481,
-          "duration" : 133
+          "start" : 1645092025975,
+          "stop" : 1645092026322,
+          "duration" : 347
         },
         "flaky" : false,
         "newFailed" : false,
@@ -107,18 +107,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f07f7674949ec31051b2642d2685a759"
+      "uid" : "ef784ab91c0c40f8d67c71824539351e"
     }, {
-      "name" : "expected: <null> but was: <6c178d01-9b11-4248-a297-de37f3015fc1>",
+      "name" : "expected: <null> but was: <c93298d5-9863-4faf-9bfc-0b4fc699281c>",
       "children" : [ {
         "name" : "Должно отсутствовать поле TransactionId при оплате отклоненной дебетовой картой",
-        "uid" : "9dee2577d9892fab",
-        "parentUid" : "235b6365e64e160015b8eb12ca168d60",
+        "uid" : "28ab119a4c8066c7",
+        "parentUid" : "52e044ec78759001efef420979273312",
         "status" : "failed",
         "time" : {
-          "start" : 1645087846894,
-          "stop" : 1645087847054,
-          "duration" : 160
+          "start" : 1645092026671,
+          "stop" : 1645092026840,
+          "duration" : 169
         },
         "flaky" : false,
         "newFailed" : false,
@@ -128,18 +128,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "235b6365e64e160015b8eb12ca168d60"
+      "uid" : "52e044ec78759001efef420979273312"
     }, {
       "name" : "expected: not <null>",
       "children" : [ {
         "name" : "Должно быть поле CreditId при оплате одобренной кредитной картой",
-        "uid" : "b8f6b043a332c0a7",
+        "uid" : "538b810c293927fe",
         "parentUid" : "5f18c668031a56c86d9361a8797e5508",
         "status" : "failed",
         "time" : {
-          "start" : 1645087847361,
-          "stop" : 1645087847497,
-          "duration" : 136
+          "start" : 1645092027242,
+          "stop" : 1645092027409,
+          "duration" : 167
         },
         "flaky" : false,
         "newFailed" : false,
@@ -150,13 +150,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Должен успешно оплатить с одобренной кредитной картой в форме кредита",
-        "uid" : "19e8a04636f92f50",
+        "uid" : "c822304b8e96ba93",
         "parentUid" : "5f18c668031a56c86d9361a8797e5508",
         "status" : "failed",
         "time" : {
-          "start" : 1645088011942,
-          "stop" : 1645088022846,
-          "duration" : 10904
+          "start" : 1645092180493,
+          "stop" : 1645092187146,
+          "duration" : 6653
         },
         "flaky" : false,
         "newFailed" : false,
@@ -168,16 +168,16 @@
       } ],
       "uid" : "5f18c668031a56c86d9361a8797e5508"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087862327.0.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087862327.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092043602.0.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092043602.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку с некорректным полем имени в форме оплаты",
-        "uid" : "d6d5fb182435eae9",
-        "parentUid" : "03942053c8a16b0eff3f29924b041f68",
+        "uid" : "b6dac25aaeffeda4",
+        "parentUid" : "527eb489dc1f4d31dc94ed129554ae3a",
         "status" : "failed",
         "time" : {
-          "start" : 1645087857283,
-          "stop" : 1645087862731,
-          "duration" : 5448
+          "start" : 1645092038409,
+          "stop" : 1645092044026,
+          "duration" : 5617
         },
         "flaky" : false,
         "newFailed" : false,
@@ -187,18 +187,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "03942053c8a16b0eff3f29924b041f68"
+      "uid" : "527eb489dc1f4d31dc94ed129554ae3a"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087869221.1.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087869221.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092050600.1.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092050600.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со всеми полями до лимита в форме кредита",
-        "uid" : "26851c4abe8ef0cc",
-        "parentUid" : "c7db233bbbbd120bc9a6d3522ab38761",
+        "uid" : "2f1f8df269cb560f",
+        "parentUid" : "d55a0c5939bc67a05bfe51e0d611aadd",
         "status" : "failed",
         "time" : {
-          "start" : 1645087863946,
-          "stop" : 1645087869575,
-          "duration" : 5629
+          "start" : 1645092045242,
+          "stop" : 1645092050964,
+          "duration" : 5722
         },
         "flaky" : false,
         "newFailed" : false,
@@ -208,18 +208,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c7db233bbbbd120bc9a6d3522ab38761"
+      "uid" : "d55a0c5939bc67a05bfe51e0d611aadd"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087875727.2.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087875727.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092057002.2.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092057002.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со всеми некорректными полями в форме кредита",
-        "uid" : "59d80c2bb31f22b1",
-        "parentUid" : "fedf252e168ba312f44fddce582a77ec",
+        "uid" : "27d536a97cc2936b",
+        "parentUid" : "0018292782478255e81c94a1c45b1cd4",
         "status" : "failed",
         "time" : {
-          "start" : 1645087870612,
-          "stop" : 1645087876079,
-          "duration" : 5467
+          "start" : 1645092052032,
+          "stop" : 1645092057348,
+          "duration" : 5316
         },
         "flaky" : false,
         "newFailed" : false,
@@ -229,18 +229,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fedf252e168ba312f44fddce582a77ec"
+      "uid" : "0018292782478255e81c94a1c45b1cd4"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087884127.3.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087884127.3.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092065448.3.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092065448.3.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением поля Имени до лимита в форме оплаты",
-        "uid" : "7286c5f14a0cf20b",
-        "parentUid" : "de8d4d3682c5ad4700f0fd7b06d0e2a5",
+        "uid" : "2387c74f94e8a602",
+        "parentUid" : "44f035594a7034c06a94fc69f985ee3e",
         "status" : "failed",
         "time" : {
-          "start" : 1645087879082,
-          "stop" : 1645087884484,
-          "duration" : 5402
+          "start" : 1645092060362,
+          "stop" : 1645092065826,
+          "duration" : 5464
         },
         "flaky" : false,
         "newFailed" : false,
@@ -250,18 +250,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "de8d4d3682c5ad4700f0fd7b06d0e2a5"
+      "uid" : "44f035594a7034c06a94fc69f985ee3e"
     }, {
-      "name" : "Element should have text \"Неверный формат\" {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: text=\"Поле обязательно для заполнения\"\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087904074.4.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087904074.4.html\r\nTimeout: 4 s.",
+      "name" : "Element should have text \"Неверный формат\" {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: text=\"Поле обязательно для заполнения\"\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092080017.4.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092080017.4.html\r\nTimeout: 4 s.",
       "children" : [ {
         "name" : "Должен вернуть ошибку в полях с некорректными символами в форме кредита",
-        "uid" : "9c6c3932dca0664c",
-        "parentUid" : "6c71c4ff7ed0a58dae3f34bb13501b7d",
+        "uid" : "f84d3fc53422db6d",
+        "parentUid" : "db1e8edbab4584484e8b7e6b47ee4a07",
         "status" : "failed",
         "time" : {
-          "start" : 1645087898942,
-          "stop" : 1645087904445,
-          "duration" : 5503
+          "start" : 1645092074898,
+          "stop" : 1645092080389,
+          "duration" : 5491
         },
         "flaky" : false,
         "newFailed" : false,
@@ -271,18 +271,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6c71c4ff7ed0a58dae3f34bb13501b7d"
+      "uid" : "db1e8edbab4584484e8b7e6b47ee4a07"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'CVC')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087921496.5.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087921496.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'CVC')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'CVC')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092089774.5.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092089774.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'CVC')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением '0' поля CVC в форме кредита",
-        "uid" : "5831a32e827daa46",
-        "parentUid" : "e97baca2b4083c0389fc9de901537649",
+        "uid" : "ce3ae96389a86870",
+        "parentUid" : "cdb499a91fa5539e305604d75457606a",
         "status" : "failed",
         "time" : {
-          "start" : 1645087916461,
-          "stop" : 1645087921883,
-          "duration" : 5422
+          "start" : 1645092084758,
+          "stop" : 1645092090219,
+          "duration" : 5461
         },
         "flaky" : false,
         "newFailed" : false,
@@ -292,18 +292,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e97baca2b4083c0389fc9de901537649"
+      "uid" : "cdb499a91fa5539e305604d75457606a"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087929104.6.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087929104.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092097569.6.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092097569.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку у поля Имени при вводе всех полей сверх лимита в форме оплаты",
-        "uid" : "860f93c895b5bdcc",
-        "parentUid" : "91daeaebaefe8a843e62b1951c28434b",
+        "uid" : "af58decc727a7d29",
+        "parentUid" : "2bdeedd6a17163cf3d80163886714fa7",
         "status" : "failed",
         "time" : {
-          "start" : 1645087923897,
-          "stop" : 1645087929481,
-          "duration" : 5584
+          "start" : 1645092092311,
+          "stop" : 1645092097894,
+          "duration" : 5583
         },
         "flaky" : false,
         "newFailed" : false,
@@ -313,18 +313,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "91daeaebaefe8a843e62b1951c28434b"
+      "uid" : "2bdeedd6a17163cf3d80163886714fa7"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087935553.7.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087935553.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092103788.7.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092103788.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со всеми полями со значением '0' в форме кредита",
-        "uid" : "ae005f484f4ce591",
-        "parentUid" : "c50388e6c8ebd570f9de8b1d0eeaf086",
+        "uid" : "163094162d64e9bb",
+        "parentUid" : "3afd0436409d08596d7f55fd83165501",
         "status" : "failed",
         "time" : {
-          "start" : 1645087930493,
-          "stop" : 1645087935905,
-          "duration" : 5412
+          "start" : 1645092098894,
+          "stop" : 1645092104140,
+          "duration" : 5246
         },
         "flaky" : false,
         "newFailed" : false,
@@ -334,18 +334,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c50388e6c8ebd570f9de8b1d0eeaf086"
+      "uid" : "3afd0436409d08596d7f55fd83165501"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087940996.8.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087940996.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092109394.8.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092109394.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку у поля Имени при вводе всех полей сверх лимита в форме кредита",
-        "uid" : "40eaab6e54311ba4",
-        "parentUid" : "7887b7d544ad97d0a509ee4182e71c4d",
+        "uid" : "12947f83ee8ddc29",
+        "parentUid" : "d366318f27641e4d7a273d79066be18c",
         "status" : "failed",
         "time" : {
-          "start" : 1645087935911,
-          "stop" : 1645087941417,
-          "duration" : 5506
+          "start" : 1645092104146,
+          "stop" : 1645092109747,
+          "duration" : 5601
         },
         "flaky" : false,
         "newFailed" : false,
@@ -355,18 +355,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7887b7d544ad97d0a509ee4182e71c4d"
+      "uid" : "d366318f27641e4d7a273d79066be18c"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087946536.9.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087946536.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092114856.9.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092114856.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
-        "name" : "Должен вернуть ошибку в поле Имени некорректными символами в форме кредита",
-        "uid" : "9caf93e41e63ed63",
-        "parentUid" : "cfaa768aa42e9b2b8fd037e34862d351",
+        "name" : "Должен вернуть ошибку в поле Имени с некорректными символами в форме кредита",
+        "uid" : "1280c8013c508bd5",
+        "parentUid" : "96f4f36ef45cf34514d5da4058a80ceb",
         "status" : "failed",
         "time" : {
-          "start" : 1645087941423,
-          "stop" : 1645087946956,
-          "duration" : 5533
+          "start" : 1645092109752,
+          "stop" : 1645092115268,
+          "duration" : 5516
         },
         "flaky" : false,
         "newFailed" : false,
@@ -376,18 +376,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cfaa768aa42e9b2b8fd037e34862d351"
+      "uid" : "96f4f36ef45cf34514d5da4058a80ceb"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087952273.10.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087952273.10.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092120236.10.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092120236.10.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением '0' поля Карты в форме оплаты",
-        "uid" : "b9223149705bd1c9",
-        "parentUid" : "014a923430a11fa43bacf53413ded0d7",
+        "uid" : "f6d027539e40321d",
+        "parentUid" : "362b4ab144d4f88e0b6bbaed65673bc8",
         "status" : "failed",
         "time" : {
-          "start" : 1645087946963,
-          "stop" : 1645087952717,
-          "duration" : 5754
+          "start" : 1645092115275,
+          "stop" : 1645092120692,
+          "duration" : 5417
         },
         "flaky" : false,
         "newFailed" : false,
@@ -397,18 +397,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "014a923430a11fa43bacf53413ded0d7"
+      "uid" : "362b4ab144d4f88e0b6bbaed65673bc8"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087961612.11.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087961612.11.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092129596.11.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092129596.11.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением '0' поля Карты в форме кредита",
-        "uid" : "fd5592178b8b0d47",
-        "parentUid" : "0c863562856cf6d03b10f251a5d01211",
+        "uid" : "55c448616d0c1df8",
+        "parentUid" : "ab0611a5f04b7186967ea6c80c600ce9",
         "status" : "failed",
         "time" : {
-          "start" : 1645087956697,
-          "stop" : 1645087962066,
-          "duration" : 5369
+          "start" : 1645092124645,
+          "stop" : 1645092130053,
+          "duration" : 5408
         },
         "flaky" : false,
         "newFailed" : false,
@@ -418,18 +418,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0c863562856cf6d03b10f251a5d01211"
+      "uid" : "ab0611a5f04b7186967ea6c80c600ce9"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087972906.12.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087972906.12.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092141172.12.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092141172.12.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку с некорректным полем имени в форме кредита",
-        "uid" : "1df0394910ea4ed3",
-        "parentUid" : "387861877e224d5c1ca8cc871697f3b5",
+        "uid" : "4df498a694f67606",
+        "parentUid" : "3480fa811dd3f830b851ad3e70bc6ce0",
         "status" : "failed",
         "time" : {
-          "start" : 1645087967959,
-          "stop" : 1645087973350,
-          "duration" : 5391
+          "start" : 1645092136080,
+          "stop" : 1645092141620,
+          "duration" : 5540
         },
         "flaky" : false,
         "newFailed" : false,
@@ -439,18 +439,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "387861877e224d5c1ca8cc871697f3b5"
+      "uid" : "3480fa811dd3f830b851ad3e70bc6ce0"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087979194.13.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087979194.13.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092147657.13.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092147657.13.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением '0' поля Имени в форме оплаты",
-        "uid" : "ef37dc834b94e7c",
-        "parentUid" : "8477727f12759c05ced0f961dd91b0f2",
+        "uid" : "f870dc79dcddaea4",
+        "parentUid" : "f396a8233040b52cc63f7b016d0d92ed",
         "status" : "failed",
         "time" : {
-          "start" : 1645087974335,
-          "stop" : 1645087979647,
-          "duration" : 5312
+          "start" : 1645092142650,
+          "stop" : 1645092148080,
+          "duration" : 5430
         },
         "flaky" : false,
         "newFailed" : false,
@@ -460,18 +460,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8477727f12759c05ced0f961dd91b0f2"
+      "uid" : "f396a8233040b52cc63f7b016d0d92ed"
     }, {
-      "name" : "Element should have text \"Неверный формат\" {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: text=\"Поле обязательно для заполнения\"\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087984772.14.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087984772.14.html\r\nTimeout: 4 s.",
+      "name" : "Element should have text \"Неверный формат\" {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: text=\"Поле обязательно для заполнения\"\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092153349.14.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092153349.14.html\r\nTimeout: 4 s.",
       "children" : [ {
         "name" : "Должен вернуть ошибку в полях с некорректными символами в форме оплаты",
-        "uid" : "728fde8c4df52c89",
-        "parentUid" : "c77887b6563999a5b83c699c9a190ff1",
+        "uid" : "c8f99f11a1ce005d",
+        "parentUid" : "3f25c2ec1eaed651f9734dd2d36e5b67",
         "status" : "failed",
         "time" : {
-          "start" : 1645087979653,
-          "stop" : 1645087985120,
-          "duration" : 5467
+          "start" : 1645092148087,
+          "stop" : 1645092153651,
+          "duration" : 5564
         },
         "flaky" : false,
         "newFailed" : false,
@@ -481,18 +481,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c77887b6563999a5b83c699c9a190ff1"
+      "uid" : "3f25c2ec1eaed651f9734dd2d36e5b67"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087993064.15.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087993064.15.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092161603.15.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092161603.15.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением поля Имени сверх лимита в форме кредита",
-        "uid" : "b8e1f5942884e11",
-        "parentUid" : "ef31390d3bf35c6974e1ff682fa17ebe",
+        "uid" : "b185771ddfd910d4",
+        "parentUid" : "a945738e6ed092d568c6afb17df89cc6",
         "status" : "failed",
         "time" : {
-          "start" : 1645087987900,
-          "stop" : 1645087993530,
-          "duration" : 5630
+          "start" : 1645092156481,
+          "stop" : 1645092162032,
+          "duration" : 5551
         },
         "flaky" : false,
         "newFailed" : false,
@@ -502,18 +502,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ef31390d3bf35c6974e1ff682fa17ebe"
+      "uid" : "a945738e6ed092d568c6afb17df89cc6"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087998776.16.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645087998776.16.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092167206.16.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092167206.16.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со всеми полями до лимита в форме оплаты",
-        "uid" : "43e5dc568c8097a6",
-        "parentUid" : "21400bc88afd793306c5cea8e727ca69",
+        "uid" : "41cea194f706e2cd",
+        "parentUid" : "91005033442f13fde7c4a02b41ff6c6b",
         "status" : "failed",
         "time" : {
-          "start" : 1645087993537,
-          "stop" : 1645087999115,
-          "duration" : 5578
+          "start" : 1645092162039,
+          "stop" : 1645092167548,
+          "duration" : 5509
         },
         "flaky" : false,
         "newFailed" : false,
@@ -523,18 +523,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "21400bc88afd793306c5cea8e727ca69"
+      "uid" : "91005033442f13fde7c4a02b41ff6c6b"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'CVC')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088004019.17.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088004019.17.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'CVC')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'CVC')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092172642.17.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092172642.17.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'CVC')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением '0' поля CVC в форме оплаты",
-        "uid" : "71179a7496bfd592",
-        "parentUid" : "d9278c5f009ea476bf77f27fe904b51b",
+        "uid" : "58d346c28156c95c",
+        "parentUid" : "21ea479c56e1aa0e7cadc465de47016b",
         "status" : "failed",
         "time" : {
-          "start" : 1645087999121,
-          "stop" : 1645088004431,
-          "duration" : 5310
+          "start" : 1645092167554,
+          "stop" : 1645092173027,
+          "duration" : 5473
         },
         "flaky" : false,
         "newFailed" : false,
@@ -544,18 +544,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d9278c5f009ea476bf77f27fe904b51b"
+      "uid" : "21ea479c56e1aa0e7cadc465de47016b"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088009497.18.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088009497.18.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092178096.18.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092178096.18.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Номер карты')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со всеми полями со значением '0' в форме оплаты",
-        "uid" : "685bf1a46f480f9e",
-        "parentUid" : "6207100e454ca92da6b94ee22c485125",
+        "uid" : "b9bc8a59547ff54d",
+        "parentUid" : "26069ef15234fdb129393cdf5a39fcf4",
         "status" : "failed",
         "time" : {
-          "start" : 1645088004437,
-          "stop" : 1645088009853,
-          "duration" : 5416
+          "start" : 1645092173033,
+          "stop" : 1645092178418,
+          "duration" : 5385
         },
         "flaky" : false,
         "newFailed" : false,
@@ -565,18 +565,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6207100e454ca92da6b94ee22c485125"
+      "uid" : "26069ef15234fdb129393cdf5a39fcf4"
     }, {
-      "name" : "Element should be visible {By.xpath: .//div[contains(@class, 'notification_status_error')]}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088041649.19.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088041649.19.html\r\nTimeout: 15 s.",
+      "name" : "Element should be visible {By.xpath: .//div[contains(@class, 'notification_status_error')]}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092205954.19.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092205954.19.html\r\nTimeout: 15 s.",
       "children" : [ {
         "name" : "Должен вернуть ошибку с отклоненной дебетовой картой в форме оплаты",
-        "uid" : "dcd900bb51773318",
-        "parentUid" : "00e46ae6f817b148b6ce4f62e1f54b24",
+        "uid" : "b43bb44f3ec08923",
+        "parentUid" : "917115ece613241d3591775f97af3bd7",
         "status" : "failed",
         "time" : {
-          "start" : 1645088025681,
-          "stop" : 1645088042051,
-          "duration" : 16370
+          "start" : 1645092190052,
+          "stop" : 1645092206366,
+          "duration" : 16314
         },
         "flaky" : false,
         "newFailed" : false,
@@ -586,18 +586,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "00e46ae6f817b148b6ce4f62e1f54b24"
+      "uid" : "917115ece613241d3591775f97af3bd7"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088068183.20.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088068183.20.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092230809.20.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092230809.20.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением '0' поля Имени в форме кредита",
-        "uid" : "dc47267750e929c2",
-        "parentUid" : "e0e9ea2524f20a81c5c44f687d55a33b",
+        "uid" : "52c5e45dd6b9a9b9",
+        "parentUid" : "8ed1184e6ea421af0fc3c9391c630530",
         "status" : "failed",
         "time" : {
-          "start" : 1645088063296,
-          "stop" : 1645088068593,
-          "duration" : 5297
+          "start" : 1645092225874,
+          "stop" : 1645092231232,
+          "duration" : 5358
         },
         "flaky" : false,
         "newFailed" : false,
@@ -607,18 +607,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e0e9ea2524f20a81c5c44f687d55a33b"
+      "uid" : "8ed1184e6ea421af0fc3c9391c630530"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088073478.21.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088073478.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092236170.21.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092236170.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением поля Имени до лимита в форме кредита",
-        "uid" : "f68133b0ca2a7ed7",
-        "parentUid" : "1f4f07c85626790775f6b9777360421c",
+        "uid" : "21ef82ed7c36fb53",
+        "parentUid" : "d50fcf41c2fc0b33745443aef93d9a72",
         "status" : "failed",
         "time" : {
-          "start" : 1645088068598,
-          "stop" : 1645088073913,
-          "duration" : 5315
+          "start" : 1645092231239,
+          "stop" : 1645092236590,
+          "duration" : 5351
         },
         "flaky" : false,
         "newFailed" : false,
@@ -628,18 +628,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1f4f07c85626790775f6b9777360421c"
+      "uid" : "d50fcf41c2fc0b33745443aef93d9a72"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088079046.22.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088079046.22.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Месяц')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092241734.22.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092241734.22.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Месяц')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со всеми некорректными полями в форме оплаты",
-        "uid" : "752db96dccc6c6e9",
-        "parentUid" : "db7ae155e8cc6c974461ba5a9ec90920",
+        "uid" : "912fc7c8aeeb419",
+        "parentUid" : "4cf70f3e9994165517d652f5eb7435bb",
         "status" : "failed",
         "time" : {
-          "start" : 1645088073922,
-          "stop" : 1645088079391,
-          "duration" : 5469
+          "start" : 1645092236596,
+          "stop" : 1645092242086,
+          "duration" : 5490
         },
         "flaky" : false,
         "newFailed" : false,
@@ -649,18 +649,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "db7ae155e8cc6c974461ba5a9ec90920"
+      "uid" : "4cf70f3e9994165517d652f5eb7435bb"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088084313.23.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088084313.23.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092247211.23.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092247211.23.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
-        "name" : "Должен вернуть ошибку в поле Имени некорректными символами в форме оплаты",
-        "uid" : "f024dd6fac94c9ba",
-        "parentUid" : "e7d25897be839e2166ad565cbf660ae9",
+        "name" : "Должен вернуть ошибку в поле Имени с некорректными символами в форме оплаты",
+        "uid" : "7f5de4c168eaf9ee",
+        "parentUid" : "4b4a503bb520bf1572981a63f8b7d5f4",
         "status" : "failed",
         "time" : {
-          "start" : 1645088079396,
-          "stop" : 1645088084731,
-          "duration" : 5335
+          "start" : 1645092242091,
+          "stop" : 1645092247623,
+          "duration" : 5532
         },
         "flaky" : false,
         "newFailed" : false,
@@ -670,18 +670,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e7d25897be839e2166ad565cbf660ae9"
+      "uid" : "4b4a503bb520bf1572981a63f8b7d5f4"
     }, {
-      "name" : "Element should be visible {By.xpath: .//div[contains(@class, 'notification_status_error')]}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088104709.24.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088104709.24.html\r\nTimeout: 15 s.",
+      "name" : "Element should be visible {By.xpath: .//div[contains(@class, 'notification_status_error')]}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092267654.24.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092267654.24.html\r\nTimeout: 15 s.",
       "children" : [ {
         "name" : "Должен вернуть ошибку с отклоненной кредитной картой в форме кредита",
-        "uid" : "17fe7076d822fd31",
-        "parentUid" : "826f8e3deca63916b60124e7a18ca7cc",
+        "uid" : "50f989a607553dd8",
+        "parentUid" : "3218aec51f493c95c18b330848f9b6c9",
         "status" : "failed",
         "time" : {
-          "start" : 1645088088710,
-          "stop" : 1645088105120,
-          "duration" : 16410
+          "start" : 1645092251675,
+          "stop" : 1645092268076,
+          "duration" : 16401
         },
         "flaky" : false,
         "newFailed" : false,
@@ -691,18 +691,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "826f8e3deca63916b60124e7a18ca7cc"
+      "uid" : "3218aec51f493c95c18b330848f9b6c9"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088113275.25.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088113275.25.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092276375.25.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092276375.25.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку со значением поля Имени сверх лимита в форме оплаты",
-        "uid" : "f198019a7cabf236",
-        "parentUid" : "e640a6dcb29bdde1147b179b03f95825",
+        "uid" : "863d17718e914ccf",
+        "parentUid" : "f7390e1e445ad2896df9103a4804cb7c",
         "status" : "failed",
         "time" : {
-          "start" : 1645088108021,
-          "stop" : 1645088113737,
-          "duration" : 5716
+          "start" : 1645092271099,
+          "stop" : 1645092276804,
+          "duration" : 5705
         },
         "flaky" : false,
         "newFailed" : false,
@@ -712,18 +712,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e640a6dcb29bdde1147b179b03f95825"
+      "uid" : "f7390e1e445ad2896df9103a4804cb7c"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088118831.26.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088118831.26.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092281964.26.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092281964.26.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку в поле Имени с символьным значением в форме кредита",
-        "uid" : "2f3ffbfd43152823",
-        "parentUid" : "c522f2300551d295e9f9d20becf7908b",
+        "uid" : "7cb8f72dd81ca722",
+        "parentUid" : "e8e95a4a1140d5101ecf99fe79b22024",
         "status" : "failed",
         "time" : {
-          "start" : 1645088113743,
-          "stop" : 1645088119330,
-          "duration" : 5587
+          "start" : 1645092276810,
+          "stop" : 1645092282420,
+          "duration" : 5610
         },
         "flaky" : false,
         "newFailed" : false,
@@ -733,18 +733,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c522f2300551d295e9f9d20becf7908b"
+      "uid" : "e8e95a4a1140d5101ecf99fe79b22024"
     }, {
-      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088125422.27.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645088125422.27.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
+      "name" : "Element not found {By.xpath: .//span[contains(text(), 'Владелец')]/../span[@class='input__sub']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092288905.27.png\r\nPage source: file:/C:/Users/aremars/IdeaProjects/diplom1/build/reports/tests/1645092288905.27.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(text(), 'Владелец')]/../span[@class='input__sub']\"}",
       "children" : [ {
         "name" : "Должен вернуть ошибку в поле Имени с символьным значением в форме оплаты",
-        "uid" : "3afd4ad7a7120e17",
-        "parentUid" : "593489918999fe4ff3c618d54b477800",
+        "uid" : "3a346f481cb27f48",
+        "parentUid" : "f0444b3fe0d697f77591614686a15fd0",
         "status" : "failed",
         "time" : {
-          "start" : 1645088120499,
-          "stop" : 1645088125843,
-          "duration" : 5344
+          "start" : 1645092283721,
+          "stop" : 1645092289325,
+          "duration" : 5604
         },
         "flaky" : false,
         "newFailed" : false,
@@ -754,7 +754,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "593489918999fe4ff3c618d54b477800"
+      "uid" : "f0444b3fe0d697f77591614686a15fd0"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
