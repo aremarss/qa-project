@@ -6,7 +6,6 @@ import data.DataHelper;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import static data.DataHelper.*;
-import static data.DataHelper.AuthInfo.*;
 import static java.time.Duration.ofSeconds;
 
 public abstract class CardPages {

@@ -2,7 +2,7 @@ package data;
 
 import io.restassured.http.ContentType;
 
-import static data.DataHelper.AuthInfo.validUser;
+import static data.DataHelper.validUser;
 import static io.restassured.RestAssured.given;
 
 public class APIHelper {

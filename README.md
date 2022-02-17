@@ -86,6 +86,16 @@ ___
 ./gradlew allureServe
 ```
 ___
+Установка `headless`-режима `Selenide` осуществляется через изменение
+свойств `gradle.properties`:
+```
+systemProp.selenide.headless=true
+```
+или
+```
+systemProp.selenide.headless=false
+```
+___
 #### После окончания работы:
 1. Завершить работу `SUT` сочетанием клавиш `CTRL + C`.
 2. Завершить работу контейнеров командой в консоли:
