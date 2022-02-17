@@ -351,7 +351,7 @@ public class DataHelper {
                 "4444",
                 String.valueOf(faker.number().numberBetween(10, 20)),
                 String.valueOf(faker.number().numberBetween(13, 99)),
-                "ваня ваньков",
+                generateHolder("RU"),
                 String.valueOf(faker.number().numberBetween(0, 99))
         );
     }
