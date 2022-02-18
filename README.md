@@ -1,6 +1,15 @@
+<div align="center">
+
 # Сервис заказа путешествия
 
+</div>
+
+<div align="center">
+
 ### [Дипломный проект профессии «Тестировщик»](https://github.com/netology-code/qa-diploma/tree/2ccafd34b6f9eb3a66dd7a11a0b8b1ba3f266e50#дипломный-проект-профессии-тестировщик)
+
+</div>
+
 ___
 ## Описание приложения
 
