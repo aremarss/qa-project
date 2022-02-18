@@ -19,10 +19,10 @@ jobs:
     - name: Sleep
       run: sleep 60
     - name: Open .jar
-      run: java -jar ./artifacts/aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/db &
+      run: java -jar ./artifacts/aqa-shop.jar &
     - name: Sleep
       run: sleep 60
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Test
-      run: ./gradlew clean test --info -Ddb=jdbc:postgresql://localhost:5432/db
+      run: ./gradlew clean test --info
