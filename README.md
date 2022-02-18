@@ -101,11 +101,9 @@ docker-compose down
 ```
 ___
 
+[![Issues](https://img.shields.io/github/issues-raw/aremarss/qa-project?color=800000&style=for-the-badge)](https://github.com/aremarss/qa-project/issues) &nbsp;
 [<img src="https://aremarss.github.io/qa-project-allure/favicon.ico?v=2"/>][Allure]
-[**ALLURE REPORT**](https://aremarss.github.io/qa-project-allure/)
-
-[![Java CI with Gradle](https://github.com/aremarss/qa-project/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/aremarss/qa-project/actions/workflows/gradle.yml)
-
-[![Issues](https://img.shields.io/github/issues-raw/aremarss/qa-project?color=800000&style=for-the-badge)](https://github.com/aremarss/qa-project/issues)
+[**ALLURE REPORT**](https://aremarss.github.io/qa-project-allure/) &nbsp;
+[![Java CI with Gradle](https://github.com/aremarss/qa-project/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/aremarss/qa-project/actions/workflows/gradle.yml) &nbsp;
 
 [Allure]: https://aremarss.github.io/qa-project-allure/
