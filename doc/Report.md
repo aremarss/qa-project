@@ -1,12 +1,12 @@
 # Отчет о проведенном тестировании
 
-<div style="text-align: center">
+<div align="center">
 
 ### Allure Report & Issues :
 
 </div>
 
-<div style="text-align: right">
+<div align="right">
 
 [<img  src="https://aremarss.github.io/qa-project-allure/favicon.ico?v=2"/>][Allure]
 [**ALLURE REPORT**](https://aremarss.github.io/qa-project-allure/)
