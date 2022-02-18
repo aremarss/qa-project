@@ -64,23 +64,18 @@ _Примечание: по-умолчанию `SUT` работает с `Postgr
 ```
 docker-compose up -d
 ```
-3.1. После развертывания контейнера для запуска `SUT` с `PostgreSQL` выполнить команду в консоли:
-```
-java -jar .\artifacts\aqa-shop.jar
-```
-3.2. После развертывания контейнера для запуска `SUT` с `MySQL` выполнить команду в консоли:
-```
-java -jar .\artifacts\aqa-shop.jar --spring.datasource.url=jdbc:mysql://localhost:3306/db
-```
-4.1. Запустить тесты командой в консоли `(для PostgreSQL)`:
-```
-./gradlew clean test allureServe
-```
-4.2. Запустить тесты командой в консоли `(для MySQL)`:
-```
-./gradlew clean test allureServe -Ddb=jdbc:mysql://localhost:3306/db
-```
+3. После развертывания контейнера для запуска `SUT` в зависимости от выбранной для работы `СУБД` выполнить команду в консоли:
+
+| _PostgreSQL_                         |                                           _MySQL_                                           |
+|--------------------------------------|:-------------------------------------------------------------------------------------------:|
+| `java -jar .\artifacts\aqa-shop.jar` | `java -jar .\artifacts\aqa-shop.jar --spring.datasource.url=jdbc:mysql://localhost:3306/db` |
+4. Запустить тесты командой в консоли:
+
+| _PostgreSQL_                       |                                _MySQL_                                 |
+|------------------------------------|:----------------------------------------------------------------------:|
+| `./gradlew clean test allureServe` | `./gradlew clean test allureServe -Ddb=jdbc:mysql://localhost:3306/db` |
 ___
+
 ### Дополнительные сведения:
 
 Для просмотра отчета `Allure Report` после выполнения тестов ввести в консоли:
@@ -105,3 +100,9 @@ ___
 docker-compose down
 ```
 ___
+
+![https://aremarss.github.io/qa-project-allure/](https://aremarss.github.io/qa-project-allure/favicon.ico?v=2) [**ALLURE REPORT**](https://aremarss.github.io/qa-project-allure/)
+
+[![Java CI with Gradle](https://github.com/aremarss/qa-project/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/aremarss/qa-project/actions/workflows/gradle.yml)
+
+[![Issues](https://img.shields.io/github/issues-raw/aremarss/qa-project?color=800000&style=for-the-badge)](https://github.com/aremarss/qa-project/issues)
