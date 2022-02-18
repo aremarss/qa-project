@@ -2,9 +2,12 @@
 
 ### Allure Report & Issues :
 
-![https://aremarss.github.io/qa-project-allure/](https://aremarss.github.io/qa-project-allure/favicon.ico?v=2) [**ALLURE REPORT**](https://aremarss.github.io/qa-project-allure/)
+[<img src="https://aremarss.github.io/qa-project-allure/favicon.ico?v=2"/>][Allure]
+[**ALLURE REPORT**](https://aremarss.github.io/qa-project-allure/)
 
 [![Issues](https://img.shields.io/github/issues-raw/aremarss/qa-project?color=800000&style=for-the-badge)](https://github.com/aremarss/qa-project/issues)
+
+[Allure]: https://aremarss.github.io/qa-project-allure/favicon.ico?v=2
 
 ### Краткое описание
 
