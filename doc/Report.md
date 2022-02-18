@@ -7,7 +7,7 @@
 
 [![Issues](https://img.shields.io/github/issues-raw/aremarss/qa-project?color=800000&style=for-the-badge)](https://github.com/aremarss/qa-project/issues)
 
-[Allure]: https://aremarss.github.io/qa-project-allure/favicon.ico?v=2
+[Allure]: https://aremarss.github.io/qa-project-allure/
 
 ### Краткое описание
 
